@@ -1,0 +1,46 @@
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ m[Kpython main.py
+[?2004l2022-12-26 03:10:19.676 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run main.py [ARGUMENTS]
+Traceback (most recent call last):
+  File "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/WC22-Data-Science/Streamlit_dashboard/Examples/main.py", line 52, in <module>
+    fig = ff.create_annotated_heatmap(
+NameError: name 'ff' is not defined. Did you mean: 'df'?
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ python main.py
+[?2004l2022-12-26 03:11:34.079 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run main.py [ARGUMENTS]
+Traceback (most recent call last):
+  File "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/WC22-Data-Science/Streamlit_dashboard/Examples/main.py", line 52, in <module>
+    fig = ff.create_annotated_heatmap(
+NameError: name 'ff' is not defined. Did you mean: 'df'?
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ python main.py
+[?2004l2022-12-26 03:11:48.791 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run main.py [ARGUMENTS]
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ streamlit run main.py
+[?2004l
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+[0m
+[0m
+[34m[1m  You can now view your Streamlit app in your browser.[0m
+[0m
+[34m  Network URL: [0m[1mhttp://172.17.0.2:8501[0m
+[34m  External URL: [0m[1mhttp://13.57.132.17:8501[0m
+[0m
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ [K(base) ]0;~/WC22-Data-Science/Streamlit_dashboard/Examples[01;34m~/WC22-Data-Science/Streamlit_dashboard/Examples[00m$ streat[Kmlit run main.py 
+[?2004l
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+[0m
+[0m
+[34m[1m  You can now view your Streamlit app in your browser.[0m
+[0m
+[34m  Network URL: [0m[1mhttp://172.17.0.2:8501[0m
+[34m  External URL: [0m[1mhttp://13.57.132.17:8501[0m
+[0m

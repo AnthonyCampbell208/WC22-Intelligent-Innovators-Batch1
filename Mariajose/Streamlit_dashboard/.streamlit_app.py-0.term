@@ -1,0 +1,37 @@
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ streamlit_app.py
+[?2004lbash: streamlit_app.py: command not found
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ python streamlit app[K[K[K[K_appy.py
+[?2004lpython: can't open file '/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/WC22-Data-Science/Streamlit_dashboard/streamlit_appy.py': [Errno 2] No such file or directory
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ streamlit run streamlit.[K_appy[K.py
+[?2004l
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+[0m
+[0m
+[34m[1m  You can now view your Streamlit app in your browser.[0m
+[0m
+[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
+[34m  External URL: [0m[1mhttp://13.57.132.17:8502[0m
+[0m
+^C[34m  Stopping...[0m
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ streamlit run streamlit_app.py
+[?2004l
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+[0m
+[0m
+[34m[1m  You can now view your Streamlit app in your browser.[0m
+[0m
+[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
+[34m  External URL: [0m[1mhttp://13.57.132.17:8502[0m
+[0m
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ st[K[Kstreamlit run streaamlit_app.py[C[1Pmlit_app.py
+[?2004l
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+[0m
+[0m
+[34m[1m  You can now view your Streamlit app in your browser.[0m
+[0m
+[34m  Network URL: [0m[1mhttp://172.17.0.2:8501[0m
+[34m  External URL: [0m[1mhttp://13.57.132.17:8501[0m
+[0m
+^C[34m  Stopping...[0m
+[?2004h(base) ]0;~/WC22-Data-Science/Streamlit_dashboard[01;34m~/WC22-Data-Science/Streamlit_dashboard[00m$ 
