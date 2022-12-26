@@ -1,0 +1,137 @@
+commit 2309365163cb7e778a47c424da5230b03bbf14bb
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 09:11:10 2017 +0000
+
+    Update about section
+
+commit 8c3126b18c392ef130087fd58aef780d5866f3c6
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 05:02:54 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit bec1d3c762e249fac3433ba5a552eed9b9c64390
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:37:36 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 3ab4c6a96b94e9c63c0180cd16208b908b0966c8
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat May 16 12:47:40 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit bac954a9492d1ed5a7416df146981dbe3a8796b2
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 20:51:29 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit f91a18b7421084c0e00fe2204246ce070cbabeed
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:19:39 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 9edb74c4c513c2519da1b9bc5e3fb4f5d20d4399
+Merge: 20642c2 52637fd
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Sat Jul 7 07:30:52 2018 -0400
+
+    Merge pull request #8 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit 52637fdf2ddec31a2b275354798156eb6068392d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 09:12:36 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit e548956b1c10c06ff384d38c132df19dcb09f178
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 09:12:31 2018 +0000
+
+    add noarch
+
+commit 20642c245ee1ef3bb93d46de17c024b8baaf64a3
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:58:19 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit 7cc213094c4db878e32f1b7856fd533709309cea
+Merge: 5513430 fe69edf
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Mar 14 00:52:19 2017 -0400
+
+    Merge pull request #5 from Carreau/oh-two-oh
+    
+    Release version 0.2.0
+
+commit fe69edf765a7a1c6073c80c33a8301355d2bcba6
+Author: Matthias Bussonnier <bussonniermatthias@gmail.com>
+Date:   Mon Mar 13 15:22:22 2017 -0700
+
+    Release version 0.2.0
+    
+    switch urls to pypi.io, hash to sha256, add myself and Thomas as
+    maintainers.
+
+commit 551343054e31109b11e2fd9f3bcb86c3a3b0d330
+Merge: b531b02 9ed540a
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Jan 6 04:17:02 2017 -0500
+
+    Merge pull request #4 from scopatz/py36
+    
+    Rerender for Python 36
+
+commit 9ed540a8740930705a1cb597a7d784017fc3615e
+Author: Anthony Scopatz <scopatz@gmail.com>
+Date:   Fri Jan 6 00:44:34 2017 -0800
+
+    Rerender for Python 36
+
+commit b531b022d62617bc34dfa2ad5fd4ee1ecc4cc88d
+Merge: ab65249 ca7d43d
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Nov 15 21:26:43 2016 -0500
+
+    Merge pull request #3 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit ca7d43d9dd5edb797cda57e170387c0075b3b7c7
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Nov 15 01:36:05 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.5.3.
+
+commit ab652494cab84680feb0219f210f412e84fbde13
+Merge: 6379c98 706f4fc
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Oct 19 00:46:44 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+commit 706f4fc77dbf612938ed36b1b8e7814a5ec94531
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Oct 19 01:38:19 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.3.3.
+
+commit 6379c987490f4b0fc9f705a9b4da3ac0303dc519
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 7 15:14:46 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit af31752a450d2138b6df7014fefb9872a87ec2d8
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Thu Jul 7 15:12:58 2016 +0000
+
+    Initial commit of the ipython_genutils feedstock.

@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "backcall",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1611930018941,
+  "version": "0.2.0"
+}

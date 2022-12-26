@@ -1,0 +1,11 @@
+prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+exec_prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+libdir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib
+includedir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

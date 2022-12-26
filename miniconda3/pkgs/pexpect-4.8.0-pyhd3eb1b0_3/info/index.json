@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_3",
+  "build_number": 3,
+  "depends": [
+    "ptyprocess >=0.5",
+    "python"
+  ],
+  "license": "ISC",
+  "license_family": "Other",
+  "name": "pexpect",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1605563236879,
+  "version": "4.8.0"
+}

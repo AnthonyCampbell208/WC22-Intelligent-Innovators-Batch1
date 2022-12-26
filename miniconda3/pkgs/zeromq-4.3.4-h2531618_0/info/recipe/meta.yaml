@@ -1,0 +1,62 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/zeromq-4.3.4-on-linux_64, last modified Thu Mar 18 08:07:11 2021
+# ------------------------------------------------
+
+package:
+  name: zeromq
+  version: 4.3.4
+source:
+  fn: zeromq-4.3.4.tar.gz
+  patches:
+    - 001-windows-install.patch
+  sha256: c593001a89f5a85dd2ddf564805deb860e02471171b3f204944857336295c3e5
+  url: https://github.com/zeromq/libzmq/releases/download/v4.3.4/zeromq-4.3.4.tar.gz
+build:
+  number: '0'
+  run_exports:
+    - zeromq >=4.3.4,<4.4.0a0
+  string: h2531618_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - autoconf 2.69 pl526hebd4dad_5
+    - automake 1.16.2 pl526_0
+    - binutils_impl_linux-64 2.33.1 he6710b0_7
+    - binutils_linux-64 2.33.1 h9595d00_15
+    - gcc_impl_linux-64 7.3.0 habb00fd_1
+    - gcc_linux-64 7.3.0 h553295d_15
+    - gxx_impl_linux-64 7.3.0 hdf63c60_1
+    - gxx_linux-64 7.3.0 h553295d_15
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - libtool 2.4.6 h7b6447c_1005
+    - m4 1.4.18 h4e445db_0
+    - make 4.2.1 h1bed415_1
+    - perl 5.26.2 h14c3975_0
+    - pkg-config 0.29.2 h1bed415_8
+  host:
+    - _libgcc_mutex 0.1 main
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libsodium 1.0.18 h7b6447c_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+  run:
+    - libgcc-ng >=7.3.0
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - libsodium >=1.0.18,<1.0.19.0a0
+    - libstdcxx-ng >=7.3.0
+about:
+  home: http://zeromq.org
+  license: LGPL-3.0-or-later
+  license_file: COPYING.LESSER
+  summary: A high-performance asynchronous messaging library.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - JohanMabille
+    - SylvainCorlay
+    - davidbrochart
+    - jakirkham
+    - minrk

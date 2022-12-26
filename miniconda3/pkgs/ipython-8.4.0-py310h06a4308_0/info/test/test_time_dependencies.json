@@ -1,0 +1,1 @@
+["testpath", "matplotlib-base !=3.2.0", "numpy >=1.19", "trio", "pygments", "pandas", "curio", "pip", "pytest-cov", "nbformat", "pytest <7", "black"]

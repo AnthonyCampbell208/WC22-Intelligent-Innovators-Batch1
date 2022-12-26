@@ -1,0 +1,30 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.5.1",
+    "ipython >=4.0.0",
+    "jupyterlab_widgets >=1.0.0",
+    "nbformat >=4.2.0",
+    "python",
+    "traitlets >=4.3.1,<6.0.0",
+    "widgetsnbextension >=3.5.0,<3.6.0"
+  ],
+  "features": "",
+  "fn": "ipywidgets-7.6.5-pyhd3eb1b0_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "4e86983a620c1607c345793553966cfb",
+  "name": "ipywidgets",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "0a90e77bc782a62c84324bbdaaf82a82f774a2a5d9cadd56e13f27a1ca4e67de",
+  "size": 111779,
+  "subdir": "noarch",
+  "timestamp": 1634143167395,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/ipywidgets-7.6.5-pyhd3eb1b0_1.tar.bz2",
+  "version": "7.6.5"
+}

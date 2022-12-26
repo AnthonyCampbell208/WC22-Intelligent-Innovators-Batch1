@@ -1,0 +1,73 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# /tmp/abs_d3zeliano1/clone/recipe, last modified Tue Aug  2 15:44:55 2022
+# ------------------------------------------------
+
+package:
+  name: prometheus_client
+  version: 0.14.1
+source:
+  sha256: db2b212c690fb1dbd0da807753af9247da28610c1d93fa12fa0b43bd30d22964
+  url: https://github.com/prometheus/client_python/archive/v0.14.1.tar.gz
+build:
+  number: '0'
+  script: /tmp/abs_d3zeliano1/croots/recipe/prometheus_client_1659455100375/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.07.19 h06a4308_0
+    - certifi 2022.6.15 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - pip 22.1.2 py310h06a4308_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.5 hc218d9a_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zlib 1.2.12 h7f8727e_2
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - prometheus_client
+    - prometheus_client.bridge
+    - prometheus_client.openmetrics
+    - prometheus_client.twisted
+  requires:
+    - pip
+    - python >=3.10,<3.11.0a0
+    - twisted
+about:
+  dev_url: https://github.com/prometheus/client_python
+  doc_url: https://github.com/prometheus/client_python#readme
+  home: https://github.com/prometheus/client_python
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: Python client for the Prometheus monitoring system
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: d3ff73ed-8e56-4c32-a418-91fa598e8c4c
+  recipe-maintainers:
+    - jessicaaustin
+    - kwilcox
+    - ocefpaf
+  remote_url: git@github.com:AnacondaRecipes/prometheus_client-feedstock.git
+  sha: d75c961b3076f2a4c73c1a13a1b4ab9330df26a6

@@ -1,0 +1,102 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Tue Jun  7 10:31:00 2022
+# ------------------------------------------------
+
+package:
+  name: markupsafe
+  version: 2.1.1
+source:
+  sha256: 7f91197cc9e48f989d12e4e6fbc46495c446636dfc81b9ccf50bb0ec74b91d4b
+  url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-2.1.1.tar.gz
+build:
+  number: '0'
+  script: /opt/conda/conda-bld/markupsafe_1654597864307/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . --no-deps -vv
+  string: py310h7f8727e_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.35.1 h27ae35d_9
+    - binutils_linux-64 2.35.1 h454624a_30
+    - gcc_impl_linux-64 7.5.0 h7105cf2_17
+    - gcc_linux-64 7.5.0 h8f34230_30
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libgcc-devel_linux-64 7.5.0 hbbeae57_17
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.4.26 h06a4308_0
+    - certifi 2022.5.18.1 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1o h7f8727e_0
+    - pip 21.2.4 py310h06a4308_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.3 hc218d9a_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zlib 1.2.12 h7f8727e_2
+  run:
+    - libgcc-ng >=7.5.0
+    - python >=3.10,<3.11.0a0
+  run_constrained:
+    - jinja2 >=3.0.0
+test:
+  commands:
+    - pip check
+  downstreams:
+    - astropy
+    - jinja2
+  imports:
+    - markupsafe
+  requires:
+    - pip
+about:
+  description: 'MarkupSafe implements a text object that escapes characters so it
+    is
+
+    safe to use in HTML and XML. Characters that have special meanings are
+
+    replaced so that they display as the actual characters. This mitigates
+
+    injection attacks, meaning untrusted user input can safely be displayed
+
+    on a page.
+
+    '
+  dev_url: https://github.com/pallets/markupsafe
+  doc_source_url: https://github.com/pallets/markupsafe/blob/master/README.rst
+  doc_url: https://markupsafe.palletsprojects.com/
+  home: https://www.palletsprojects.com/p/markupsafe
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.rst
+  summary: Safely add untrusted strings to HTML/XML markup.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 61b1abfa-96a3-4bdc-b8f9-f5ad45b79a00
+  recipe-maintainers:
+    - ocefpaf
+    - pelson
+    - scopatz
+  remote_url: git@github.com:AnacondaRecipes/markupsafe-feedstock.git
+  sha: 139a4299ceffa73fda598a10c7cace4585f4f5d5

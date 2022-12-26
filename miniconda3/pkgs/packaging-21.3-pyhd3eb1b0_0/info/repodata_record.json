@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "pyparsing >=2.0.2,!=3.0.5",
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "packaging-21.3-pyhd3eb1b0_0.tar.bz2",
+  "license": "Apache-2.0 or BSD-2-Clause",
+  "license_family": "Apache",
+  "md5": "e482aa236f5541461d285cc979323035",
+  "name": "packaging",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "214dcd61bcf364c722b8cf1f36cefeabefb37857e7ec47267b13009b739ba80c",
+  "size": 36100,
+  "subdir": "noarch",
+  "timestamp": 1637314328461,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/packaging-21.3-pyhd3eb1b0_0.tar.bz2",
+  "version": "21.3"
+}

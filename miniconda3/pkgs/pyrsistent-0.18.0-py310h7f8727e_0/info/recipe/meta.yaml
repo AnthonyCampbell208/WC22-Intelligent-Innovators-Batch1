@@ -1,0 +1,92 @@
+# This file created by conda-build 3.21.7
+# meta.yaml template originally from:
+# /home/builder/ktietz/aggregate/pyrsistent-feedstock/recipe, last modified Wed Dec 29 08:23:18 2021
+# ------------------------------------------------
+
+package:
+  name: pyrsistent
+  version: 0.18.0
+source:
+  sha256: 773c781216f8c2900b42a7b638d5b517bb134ae1acbebe4d1e8f1f41ea60eb4b
+  url: https://pypi.io/packages/source/p/pyrsistent/pyrsistent-0.18.0.tar.gz
+build:
+  number: '0'
+  script: /home/builder/ci_310/pyrsistent_1640807196327/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . -vv
+  string: py310h7f8727e_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.35.1 h27ae35d_9
+    - binutils_linux-64 2.35.1 h454624a_30
+    - gcc_impl_linux-64 7.5.0 h7105cf2_17
+    - gcc_linux-64 7.5.0 h8f34230_30
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libgcc-devel_linux-64 7.5.0 hbbeae57_17
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - attrs 21.2.0 pyhd3eb1b0_0
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2021.10.26 h06a4308_2
+    - certifi 2021.5.30 py310h06a4308_0
+    - importlib-metadata 4.8.2 py310h06a4308_0
+    - importlib_metadata 4.8.2 hd3eb1b0_0
+    - iniconfig 1.1.1 pyhd3eb1b0_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - more-itertools 8.12.0 pyhd3eb1b0_0
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1l h7f8727e_0
+    - packaging 21.3 pyhd3eb1b0_0
+    - pip 21.2.4 py310h06a4308_0
+    - pluggy 0.12.0 py_0
+    - py 1.10.0 pyhd3eb1b0_0
+    - pyparsing 3.0.4 pyhd3eb1b0_0
+    - pytest 6.2.4 py310h06a4308_2
+    - pytest-runner 5.3.1 pyhd3eb1b0_0
+    - python 3.10.0 h12debd9_4
+    - readline 8.1 h27cfd23_0
+    - setuptools 58.0.4 py310h06a4308_0
+    - sqlite 3.37.0 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tzdata 2021e hda174b7_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h7b6447c_0
+    - zipp 3.6.0 pyhd3eb1b0_0
+    - zlib 1.2.11 h7f8727e_4
+  run:
+    - libgcc-ng >=7.5.0
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - pyrsistent
+  requires:
+    - pip
+about:
+  dev_url: http://github.com/tobgu/pyrsistent/
+  doc_url: https://github.com/tobgu/pyrsistent/blob/master/README.rst
+  home: http://github.com/tobgu/pyrsistent/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.mit
+  summary: Persistent/Functional/Immutable data structures
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf

@@ -1,0 +1,9 @@
+[2022-12-26T03:57:36.085Z] info  code-server 4.8.3 977b853a1e162ab583aed64b1322d1515c57728c
+[2022-12-26T03:57:36.086Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-12-26T03:57:36.103Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-12-26T03:57:36.103Z] info  HTTP server listening on http://127.0.0.1:43389/ 
+[2022-12-26T03:57:36.103Z] info    - Authentication is disabled 
+[2022-12-26T03:57:36.103Z] info    - Not serving HTTPS 
+[03:57:38] Extension host agent started.
+[03:57:42] [127.0.0.1][88aa5257][ManagementConnection] New connection established.
+[03:57:44] [127.0.0.1][88aa5257][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

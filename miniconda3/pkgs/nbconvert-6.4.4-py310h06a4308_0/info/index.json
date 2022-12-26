@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "constrains": [
+    "pyppeteer >=1,<1.1"
+  ],
+  "depends": [
+    "beautifulsoup4",
+    "bleach",
+    "defusedxml",
+    "entrypoints >=0.2.2",
+    "jinja2 >=2.4",
+    "jupyter_core",
+    "jupyterlab_pygments",
+    "mistune >=0.8.1,<2",
+    "nbclient >=0.5.0,<0.6.0",
+    "nbformat >=4.4",
+    "pandocfilters >=1.4.1",
+    "pygments >=2.4.1",
+    "python >=3.10,<3.11.0a0",
+    "testpath",
+    "traitlets >=5.0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "nbconvert",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1649752052948,
+  "version": "6.4.4"
+}

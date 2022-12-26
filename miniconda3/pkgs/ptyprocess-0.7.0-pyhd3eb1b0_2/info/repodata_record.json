@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "ptyprocess-0.7.0-pyhd3eb1b0_2.tar.bz2",
+  "license": "ISC",
+  "md5": "62f3bb16b31fa9498a41fc4ad2b4f43c",
+  "name": "ptyprocess",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f661e9966229ec33ef4102771a12f6123fafe226337ad5531f6fd06820783eff",
+  "size": 16774,
+  "subdir": "noarch",
+  "timestamp": 1609355038155,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/ptyprocess-0.7.0-pyhd3eb1b0_2.tar.bz2",
+  "version": "0.7.0"
+}

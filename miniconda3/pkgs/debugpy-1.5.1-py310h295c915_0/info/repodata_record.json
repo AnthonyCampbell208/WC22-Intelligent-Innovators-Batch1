@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py310h295c915_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "debugpy-1.5.1-py310h295c915_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "aa967d228c67e44ca5c6142535b04c87",
+  "name": "debugpy",
+  "platform": "linux",
+  "sha256": "8a4e935d3f3dbe68dd81d084f0ae09f6e1cf22b1ccb2ae7479ccba16307e1157",
+  "size": 2108292,
+  "subdir": "linux-64",
+  "timestamp": 1640789547774,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/debugpy-1.5.1-py310h295c915_0.tar.bz2",
+  "version": "1.5.1"
+}

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py310h7f8727e_1000",
+  "build_number": 1000,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "mistune",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1640791663692,
+  "version": "0.8.4"
+}

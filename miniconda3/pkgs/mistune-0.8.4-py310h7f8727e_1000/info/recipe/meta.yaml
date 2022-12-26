@@ -1,0 +1,93 @@
+# This file created by conda-build 3.21.7
+# meta.yaml template originally from:
+# /home/builder/ktietz/aggregate/mistune-feedstock/recipe, last modified Thu Aug 20 04:55:59 2020
+# ------------------------------------------------
+
+package:
+  name: mistune
+  version: 0.8.4
+source:
+  sha256: 59a3429db53c50b5c6bcc8a07f8848cb00d7dc8bdb431a4ab41920d201d4756e
+  url: https://pypi.io/packages/source/m/mistune/mistune-0.8.4.tar.gz
+build:
+  number: '1000'
+  script: python -m pip install --no-deps --ignore-installed .
+  string: py310h7f8727e_1000
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.35.1 h27ae35d_9
+    - binutils_linux-64 2.35.1 h454624a_30
+    - gcc_impl_linux-64 7.5.0 h7105cf2_17
+    - gcc_linux-64 7.5.0 h8f34230_30
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libgcc-devel_linux-64 7.5.0 hbbeae57_17
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2021.10.26 h06a4308_2
+    - certifi 2021.5.30 py310h06a4308_0
+    - cython 0.29.25 py310h295c915_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1l h7f8727e_0
+    - pip 21.2.4 py310h06a4308_0
+    - python 3.10.0 h12debd9_4
+    - readline 8.1 h27cfd23_0
+    - setuptools 58.0.4 py310h06a4308_0
+    - sqlite 3.37.0 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tzdata 2021e hda174b7_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7f8727e_4
+  run:
+    - libgcc-ng >=7.5.0
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - nosetests
+  imports:
+    - mistune
+  requires:
+    - nose
+    - python >=3.10,<3.11.0a0
+  source_files:
+    - tests
+about:
+  description: 'Inspired by https://github.com/chjj/marked, Mistune is the fastest
+    markdown
+
+    parser in pure Python with renderer features. More features include table,
+
+    footnotes, autolink, fenced code etc.
+
+    '
+  dev_url: https://github.com/lepture/mistune
+  doc_source_url: https://github.com/lepture/mistune/blob/master/README.rst
+  doc_url: https://mistune.readthedocs.io/
+  home: https://github.com/lepture/mistune
+  license: BSD 3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: The fastest markdown parser in pure Python.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - bollwyvl
+    - ocefpaf
+    - pelson

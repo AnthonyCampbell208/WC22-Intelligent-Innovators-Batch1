@@ -1,0 +1,85 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Wed May  4 13:33:46 2022
+# ------------------------------------------------
+
+package:
+  name: jupyter_core
+  version: 4.10.0
+source:
+  sha256: a6de44b16b7b31d7271130c71a6792c4040f077011961138afed5e5e73181aec
+  url: https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.10.0.tar.gz
+build:
+  entry_points:
+    - jupyter = jupyter_core.command:main
+    - jupyter-migrate = jupyter_core.migrate:main
+    - jupyter-troubleshoot = jupyter_core.troubleshoot:main
+  number: '0'
+  script: /opt/conda/conda-bld/jupyter_core_1651671229925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+    -m pip install . --no-deps -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.4.26 h06a4308_0
+    - certifi 2021.5.30 py310h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1n h7f8727e_0
+    - pip 21.2.4 py310h06a4308_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.2 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zlib 1.2.12 h7f8727e_2
+  run:
+    - python >=3.10,<3.11.0a0
+    - traitlets
+test:
+  commands:
+    - pip check
+    - jupyter -h
+    - jupyter-migrate -h
+    - jupyter-troubleshoot --help
+    - python -m pytest -vv --pyargs jupyter_core -k "not (test_not_on_path or test_path_priority
+      or test_argv0)"
+  imports:
+    - jupyter_core
+    - jupyter_core.tests
+    - jupyter_core.utils
+  requires:
+    - pip
+    - pytest
+about:
+  dev_url: https://github.com/jupyter/jupyter_core
+  doc_source_url: https://github.com/jupyter/jupyter_core/tree/master/docs
+  doc_url: https://jupyter-core.readthedocs.io
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: Core common functionality of Jupyter projects.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: da7d8f6b-07f0-46fb-862f-3a669a3b6a16
+  recipe-maintainers:
+    - Carreau
+    - bollwyvl
+    - jakirkham
+    - minrk
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/jupyter_core-feedstock.git
+  sha: fdbdaa810e1eb2fe75a19a9e78137591ee49c5bb

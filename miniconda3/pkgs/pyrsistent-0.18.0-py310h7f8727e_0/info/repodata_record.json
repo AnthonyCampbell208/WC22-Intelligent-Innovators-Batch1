@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py310h7f8727e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "pyrsistent-0.18.0-py310h7f8727e_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "fa93b46d0393c943b54aa9a01669b651",
+  "name": "pyrsistent",
+  "platform": "linux",
+  "sha256": "e5362c4925b888dc7ca4ca8378663c473b2279b2643b76e182b977f0f9363d2d",
+  "size": 124226,
+  "subdir": "linux-64",
+  "timestamp": 1640807221148,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/pyrsistent-0.18.0-py310h7f8727e_0.tar.bz2",
+  "version": "0.18.0"
+}

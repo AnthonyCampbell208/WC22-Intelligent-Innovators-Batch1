@@ -1,0 +1,8 @@
+{
+  "c_compiler": "gcc",
+  "zlib": "1.2",
+  "c_compiler_version": "11.2.0",
+  "readline": "8.0",
+  "target_platform": "linux-64",
+  "channel_targets": "defaults"
+}

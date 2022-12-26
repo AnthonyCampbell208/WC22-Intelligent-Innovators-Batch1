@@ -1,0 +1,188 @@
+{
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/testpath-0.6.0-py310h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/LICENSE",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/testpath-0.6.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/testpath/__init__.py",
+    "lib/python3.10/site-packages/testpath/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/testpath/__pycache__/asserts.cpython-310.pyc",
+    "lib/python3.10/site-packages/testpath/__pycache__/commands.cpython-310.pyc",
+    "lib/python3.10/site-packages/testpath/__pycache__/env.cpython-310.pyc",
+    "lib/python3.10/site-packages/testpath/__pycache__/tempdir.cpython-310.pyc",
+    "lib/python3.10/site-packages/testpath/asserts.py",
+    "lib/python3.10/site-packages/testpath/cli-32.exe",
+    "lib/python3.10/site-packages/testpath/cli-64.exe",
+    "lib/python3.10/site-packages/testpath/commands.py",
+    "lib/python3.10/site-packages/testpath/env.py",
+    "lib/python3.10/site-packages/testpath/tempdir.py"
+  ],
+  "fn": "testpath-0.6.0-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/testpath-0.6.0-py310h06a4308_0",
+    "type": 1
+  },
+  "md5": "7b68a8036e46a3f101e43340cf1ac835",
+  "name": "testpath",
+  "package_tarball_full_path": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/testpath-0.6.0-py310h06a4308_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "95f7c73530d13d9fe14e59b8bbd2eb4901aab79e119e336cd937f495cce6fc36",
+        "sha256_in_prefix": "95f7c73530d13d9fe14e59b8bbd2eb4901aab79e119e336cd937f495cce6fc36",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dd1d819afd3a212053ee8223559c234a00ff4587634c43a50fcbd49d8b16539a",
+        "sha256_in_prefix": "dd1d819afd3a212053ee8223559c234a00ff4587634c43a50fcbd49d8b16539a",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "992c2b04655c197bd65532389e687097937f2d0b79cb0897d122236e2c8e0ffa",
+        "sha256_in_prefix": "992c2b04655c197bd65532389e687097937f2d0b79cb0897d122236e2c8e0ffa",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "sha256_in_prefix": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath-0.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "07697a88e9c5041c6a9eaa107e358030fbcc61f1670d8b91f89144cb1e7e4d48",
+        "sha256_in_prefix": "07697a88e9c5041c6a9eaa107e358030fbcc61f1670d8b91f89144cb1e7e4d48",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "76b741ef48ccb92eb3eb79d8da987cbc63bf5e541f8772ab5dc38f4db0862166",
+        "sha256_in_prefix": "76b741ef48ccb92eb3eb79d8da987cbc63bf5e541f8772ab5dc38f4db0862166",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fa477baf7c347780c6caadd1ae5895a34fb6d847256a031cb9ed08632960636",
+        "sha256_in_prefix": "3fa477baf7c347780c6caadd1ae5895a34fb6d847256a031cb9ed08632960636",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__pycache__/asserts.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "46e3db35d6968590edb82cf4b3f62edb896d66fe7452d52cc1022186d24d2dbf",
+        "sha256_in_prefix": "46e3db35d6968590edb82cf4b3f62edb896d66fe7452d52cc1022186d24d2dbf",
+        "size_in_bytes": 5676
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__pycache__/commands.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ff144ce0e8c895d3b358702d5bd07ea2bc76b545475639b907d2f5977a80b3a",
+        "sha256_in_prefix": "1ff144ce0e8c895d3b358702d5bd07ea2bc76b545475639b907d2f5977a80b3a",
+        "size_in_bytes": 7353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__pycache__/env.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "40da6f907be5bbfdae17a18b5fa624b2674ac6b712a6e6a4aa6336c944d6db22",
+        "sha256_in_prefix": "40da6f907be5bbfdae17a18b5fa624b2674ac6b712a6e6a4aa6336c944d6db22",
+        "size_in_bytes": 2619
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/__pycache__/tempdir.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7163334051af37b67ff4da9b9f640e87b22b8716d15d7d274fd618dfad490bf",
+        "sha256_in_prefix": "e7163334051af37b67ff4da9b9f640e87b22b8716d15d7d274fd618dfad490bf",
+        "size_in_bytes": 3060
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/asserts.py",
+        "path_type": "hardlink",
+        "sha256": "e10e289d57e9f2a1412b041836fe7ed91899e43d2aabe3748fee70cae5580a7e",
+        "sha256_in_prefix": "e10e289d57e9f2a1412b041836fe7ed91899e43d2aabe3748fee70cae5580a7e",
+        "size_in_bytes": 6826
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/cli-32.exe",
+        "path_type": "hardlink",
+        "sha256": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "sha256_in_prefix": "75f12ea2f30d9c0d872dade345f30f562e6d93847b6a509ba53beec6d0b2c346",
+        "size_in_bytes": 65536
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/cli-64.exe",
+        "path_type": "hardlink",
+        "sha256": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "sha256_in_prefix": "28b001bb9a72ae7a24242bfab248d767a1ac5dec981c672a3944f7a072375e9a",
+        "size_in_bytes": 74752
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/commands.py",
+        "path_type": "hardlink",
+        "sha256": "46ea87f901947bee26b645204d95842ad50c86323efde8c92299013cb41da730",
+        "sha256_in_prefix": "46ea87f901947bee26b645204d95842ad50c86323efde8c92299013cb41da730",
+        "size_in_bytes": 6792
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/env.py",
+        "path_type": "hardlink",
+        "sha256": "c287366d423057dd3c21dd356a8a239b0f4ee9f88b694d2159ec7a7f459c6c08",
+        "sha256_in_prefix": "c287366d423057dd3c21dd356a8a239b0f4ee9f88b694d2159ec7a7f459c6c08",
+        "size_in_bytes": 2370
+      },
+      {
+        "_path": "lib/python3.10/site-packages/testpath/tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "3d716d924344d4f8e51e105425adbf8a2aa4ce7d7a4ecb1b61abbdda086dd72e",
+        "sha256_in_prefix": "3d716d924344d4f8e51e105425adbf8a2aa4ce7d7a4ecb1b61abbdda086dd72e",
+        "size_in_bytes": 2123
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6dc081021778bf0396ccded7d0dfcd269df31629d562ba6c150e210f8e35993d",
+  "size": 93655,
+  "subdir": "linux-64",
+  "timestamp": 1655908680174,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/testpath-0.6.0-py310h06a4308_0.tar.bz2",
+  "version": "0.6.0"
+}

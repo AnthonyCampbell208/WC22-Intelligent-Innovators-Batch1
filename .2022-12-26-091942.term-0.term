@@ -1,0 +1,52 @@
+[?2004h(base) ]0;~[01;34m~[00m$ [3mecho "# WC22-Intelligent-Innovators-Batch1" >> README.md[23m[C[C[C[C[C[C[C[C[C[Cecho "# WC22-Intelligent-Innovators-Batch1" >> README.md
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ [3mgit init[23mgit init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/.git/
+[?2004h(base) ]0;~[01;34m~[00m$ [3mgit add README.md[23m[C[C[C[C[C[C[C[C[C[Cgit add README.md
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ [3mgit commit -m "first commit"[23m[C[C[C[C[C[C[C[C[C[Cgit commit -m "first commit"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'edd1874b535e4ea08897aa8a85e79c89@7884810cffdb.(none)')
+[?2004h(base) ]0;~[01;34m~[00m$ git config --global user.email '[K"anthon[K[K[K[K[Kcampbell1798@gmail.com"
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ git config --gol[K[Klobal user.name "AnthonyCampb[K[K[K[K[K Campbell"
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ git config --global user.name "Anthony Campbell"email "acampbell1798@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pmmit -m "first commit"
+[?2004l[master (root-commit) 423d5d7] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004h(base) ]0;~[01;34m~[00m$ [3mgit branch -M main[23m[C[C[C[C[C[C[C[C[C[Cgit branch -M main
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ [3mgit remote add origin https://github.com/AnthonyCampbell208/WC22-Intelligent-Innovators-Batch1.git[23m[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.com/AnthonyCampbell208/WC22-Intelligent-Innovators-Batch1.git
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ [3mgit push -u origin main[23m[C[C[C[C[C[C[C[C[C[Cgit push -u origin main
+[?2004lUsername for 'https://github.com': anthonycampbell208
+Password for 'https://anthonycampbell208@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AnthonyCampbell208/WC22-Intelligent-Innovators-Batch1.git/'
+[?2004h(base) ]0;~[01;34m~[00m$ git push -u origin main
+[?2004lUsername for 'https://github.com': AnthonyCampbell208
+Password for 'https://AnthonyCampbell208@github.com': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 253 bytes | 253.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AnthonyCampbell208/WC22-Intelligent-Innovators-Batch1.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h(base) ]0;~[01;34m~[00m$ g

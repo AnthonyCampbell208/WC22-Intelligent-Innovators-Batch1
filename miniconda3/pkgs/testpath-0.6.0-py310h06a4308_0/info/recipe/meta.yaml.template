@@ -1,0 +1,51 @@
+{% set version = "0.6.0" %}
+
+package:
+  name: testpath
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/t/testpath/testpath-{{ version }}.tar.gz
+  sha256: 2f1b97e6442c02681ebe01bd84f531028a7caea1af3825000f52345c30285e0f
+
+build:
+  number: 0
+  skip: True  # [py<36]
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
+
+requirements:
+  host:
+    - python
+    - pip
+    - flit-core >=3.2.0,<4
+    - wheel
+    - setuptools
+    - setuptools-scm !=6.1.1
+  run:
+    - python
+
+test:
+  imports:
+    - testpath
+  requires:
+    - pip
+  commands:
+    - pip check
+
+about:
+  home: https://testpath.readthedocs.io
+  license: BSD-3-Clause
+  license_file: LICENSE
+  license_family: BSD
+  summary: Testpath is a collection of utilities for Python code working with files and commands.
+  description: |
+    Testpath contains functions to check things on the filesystem,
+    and tools for mocking system commands and recording calls to those.
+  doc_url: https://testpath.readthedocs.io
+  dev_url: https://github.com/jupyter/testpath
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - takluyver
+    - ocefpaf

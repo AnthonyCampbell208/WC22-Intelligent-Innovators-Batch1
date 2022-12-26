@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "ca-certificates-2022.07.19-h06a4308_0.tar.bz2",
+  "license": "MPL-2.0",
+  "license_family": "Other",
+  "md5": "ef4b29ea120fdfa542adbce43d035c95",
+  "name": "ca-certificates",
+  "platform": "linux",
+  "sha256": "19337b434304b6e0adb34896b3d3a8f53ac55ffa0e76fe6e1b09eddccb8c0840",
+  "size": 133899,
+  "subdir": "linux-64",
+  "timestamp": 1658515750713,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/ca-certificates-2022.07.19-h06a4308_0.tar.bz2",
+  "version": "2022.07.19"
+}

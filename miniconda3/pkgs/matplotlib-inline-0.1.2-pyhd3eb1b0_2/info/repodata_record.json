@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "matplotlib-inline-0.1.2-pyhd3eb1b0_2.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "7f5b6c674f87de16cb9410d2f5ce7c93",
+  "name": "matplotlib-inline",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "78d6ee77f177f33bc9af15953e0ee4cb427a10fe88a76f46aa3c37675f11c799",
+  "size": 12421,
+  "subdir": "noarch",
+  "timestamp": 1628242483948,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/matplotlib-inline-0.1.2-pyhd3eb1b0_2.tar.bz2",
+  "version": "0.1.2"
+}

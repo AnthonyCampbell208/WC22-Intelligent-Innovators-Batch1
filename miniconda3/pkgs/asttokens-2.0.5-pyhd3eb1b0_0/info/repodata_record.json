@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "six"
+  ],
+  "features": "",
+  "fn": "asttokens-2.0.5-pyhd3eb1b0_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "d9c6faf4f1a52c664ef1343f464e45b5",
+  "name": "asttokens",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5030ffb4c9a501359be889681081e5542725b0529b6119331a07aaa563e2f9f9",
+  "size": 21573,
+  "subdir": "noarch",
+  "timestamp": 1646925670610,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/asttokens-2.0.5-pyhd3eb1b0_0.tar.bz2",
+  "version": "2.0.5"
+}

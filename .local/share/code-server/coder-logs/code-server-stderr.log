@@ -1,0 +1,29 @@
+[03:57:43] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+Error: Trying to add a disposable to a DisposableStore that has already been disposed of. The added object will be leaked!
+    at g.add (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:13:13071)
+    at r._register (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:13:13494)
+    at r.doRefreshUniversalWatchers (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:13715)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:13568
+    at w.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13058)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14827
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14286
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+Error: Trying to add a disposable to a DisposableStore that has already been disposed of. The added object will be leaked!
+    at g.add (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:13:13071)
+    at r._register (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:13:13494)
+    at r.doRefreshUniversalWatchers (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:13891)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:13568
+    at w.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13058)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14827
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14286
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)

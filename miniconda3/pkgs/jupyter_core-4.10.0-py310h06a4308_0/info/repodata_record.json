@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "jupyter_core-4.10.0-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "b79c5bbe64731c46d73b4ed31ced8f53",
+  "name": "jupyter_core",
+  "platform": "linux",
+  "sha256": "61a33c8b020c0e2a51a7e8f147f8a93f28f19f4ca6c9b23e88727b5abec777a6",
+  "size": 82984,
+  "subdir": "linux-64",
+  "timestamp": 1651671331477,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/jupyter_core-4.10.0-py310h06a4308_0.tar.bz2",
+  "version": "4.10.0"
+}

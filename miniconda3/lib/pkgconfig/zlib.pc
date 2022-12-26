@@ -1,0 +1,13 @@
+prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+exec_prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+libdir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib
+sharedlibdir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib
+includedir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

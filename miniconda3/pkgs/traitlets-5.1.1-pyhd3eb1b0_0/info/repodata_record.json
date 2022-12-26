@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "features": "",
+  "fn": "traitlets-5.1.1-pyhd3eb1b0_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "1a372a8fd805a4dc3bbcc2b03a59fee9",
+  "name": "traitlets",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c076b3442bdb5b218c7b0604f097711bacb1e07d2c951a803294de14b3730153",
+  "size": 84238,
+  "subdir": "noarch",
+  "timestamp": 1636710328477,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/traitlets-5.1.1-pyhd3eb1b0_0.tar.bz2",
+  "version": "5.1.1"
+}

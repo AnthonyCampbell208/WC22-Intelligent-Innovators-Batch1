@@ -1,0 +1,84 @@
+commit 81a59877060444da790647b4771f7671787de346
+Merge: 6af3136 4a98dc1
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Mon Dec 28 08:34:21 2020 -0800
+
+    Merge pull request #4 from jasongrout/nolab
+    
+    Remove the run_constrained requirement for jlab.
+
+commit 4a98dc10a92d000b09564dfb12c963ab7a2a7f5d
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Mon Dec 28 08:23:10 2020 -0800
+
+    Remove the run_constrained requirement for jlab.
+    
+    Fixes https://github.com/conda-forge/ipywidgets-feedstock/issues/65
+    
+    Since jupyterlab_widgets is now installed by default with ipywidgets, having this run_constrained line in would insist that ipywidgets cannot be used with jlab 2, which is overreaching.
+    
+    For now, it seems that consensus is that it is better to have the dependency between ipywidgets and jupyterlab_widgets (making things much more convenient for users) than having things more pure from a dependency standpoint.
+    
+    We may change our mind in the future, though. For example, when jupyterlab_widgets is upgraded to support jlab 4, then blindly installing jupyterlab_widgets may not work for jlab 3, unless we do some work to support both jlab 3 and jlab 4 in the same package.
+
+commit 6af3136c572caf396f46d9a2d9f94de5ecae4d74
+Merge: d2fca28 1055923
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Thu Dec 24 10:19:13 2020 -0800
+
+    Merge pull request #3 from jasongrout/1.0
+    
+    Update to 1.0
+
+commit 10559238945d6b36d9a9a1e0d926bf0d9d1dda39
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Thu Dec 24 18:14:04 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.12.23.19.30.24
+
+commit f7fa1867790a56e3275e375b8c9b41ebdb624b65
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Thu Dec 24 10:11:50 2020 -0800
+
+    Update to 1.0
+
+commit d2fca28718521b066ceff18ac8e1abc339349be0
+Merge: ab1eaf6 77f7d1e
+Author: Jason Grout <jasongrout@users.noreply.github.com>
+Date:   Fri Oct 23 22:26:49 2020 -0700
+
+    Merge pull request #1 from jasongrout/a6
+    
+    1.0.0a6
+
+commit 77f7d1e14f5debd8ace8c2dc08296abf85dd1ca9
+Author: conda-forge-linter <github-actions@email.com>
+Date:   Sat Oct 24 04:35:41 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.4, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.22.15.42.41
+
+commit 23f0097214b9c91e1c7e2f44474357499097b599
+Author: Jason Grout <jgrout6@bloomberg.net>
+Date:   Fri Oct 23 21:31:44 2020 -0700
+
+    1.0.0a6
+    
+    This removes the jupyterlab dependency, but we still have a run constraint. See https://github.com/jupyter-widgets/ipywidgets/pull/2995
+
+commit ab1eaf60694a299c90445fd8b791621f29ec7fb7
+Author: cf-blacksmithy <41433396+cf-blacksmithy@users.noreply.github.com>
+Date:   Wed Oct 7 06:08:01 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit cf7eb445fd9662002b61a34b8b1256e3382943cf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Oct 7 02:34:56 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit b6048e70a8117c4ec7a03f589291069adf81c265
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Oct 7 02:28:03 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.8.0.

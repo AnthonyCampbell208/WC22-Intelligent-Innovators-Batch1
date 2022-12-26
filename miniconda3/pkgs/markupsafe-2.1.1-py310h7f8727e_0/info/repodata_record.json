@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py310h7f8727e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [
+    "jinja2 >=3.0.0"
+  ],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "markupsafe-2.1.1-py310h7f8727e_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "d30b31c701efc1ab22fd8f7a1e489978",
+  "name": "markupsafe",
+  "platform": "linux",
+  "sha256": "efd169bd41fbc65ffd85725f6a76db92a343085108cc43b9e875c8d2783644b3",
+  "size": 37487,
+  "subdir": "linux-64",
+  "timestamp": 1654598030197,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/markupsafe-2.1.1-py310h7f8727e_0.tar.bz2",
+  "version": "2.1.1"
+}

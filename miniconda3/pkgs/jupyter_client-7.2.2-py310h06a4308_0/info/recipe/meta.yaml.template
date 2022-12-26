@@ -1,0 +1,75 @@
+{% set name = "jupyter_client" %}
+{% set version = "7.2.2" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_client-{{ version }}.tar.gz
+  sha256: 8fdbad344a8baa6a413d86d25bbf87ce21cb2b4aa5a8e0413863b9754eb8eb8a
+
+build:
+  number: 0
+  skip: True  # [py<37]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - jupyter-kernel = jupyter_client.kernelapp:main
+    - jupyter-kernelspec = jupyter_client.kernelspecapp:KernelSpecApp.launch_instance
+    - jupyter-run = jupyter_client.runapp:RunApp.launch_instance
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+    - wheel
+  run:
+    - python
+    - entrypoints
+    - jupyter_core >=4.9.2
+    - nest-asyncio >=1.5.4
+    - python-dateutil >=2.8.2
+    - pyzmq >=22.3
+    - tornado >=6.0
+    - traitlets
+    
+test:
+  requires:
+    - codecov
+    - coverage
+    - ipykernel >=6.5
+    - ipython
+    # Use ipython_genutils to fix tests on arm64 
+    - ipython_genutils  # [osx-arm64]
+    # mypy 0.910 has a missing dependency for python 3.7
+    - mypy <0.910  # [py==37]
+    - mypy  # [not py==37]
+    - pip
+    - pytest
+    - pytest-asyncio >=0.18
+    - pytest-cov
+    - pytest-timeout
+  imports:
+    - jupyter_client
+
+about:
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: jupyter_client contains the reference implementation of the Jupyter protocol.
+  dev_url: https://github.com/jupyter/jupyter_client
+  doc_url: https://jupyter-client.readthedocs.io/en/stable/
+  doc_source_url: https://github.com/jupyter/{{ name }}/tree/v{{ version }}/docs
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - pelson
+    - ocefpaf
+    - carreau
+    - SylvainCorlay
+    - bollwyvl
+    - davidbrochart

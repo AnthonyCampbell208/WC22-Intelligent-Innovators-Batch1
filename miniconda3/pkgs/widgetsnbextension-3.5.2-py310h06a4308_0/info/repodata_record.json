@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "notebook >=4.4.1",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "widgetsnbextension-3.5.2-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "57b9c609ad6b278bc8f3e3689ef8f20f",
+  "name": "widgetsnbextension",
+  "platform": "linux",
+  "sha256": "c866b3fa5705a4e3357d8124b611ae4fbb5d53dd6611626d7f1e5cddc99aa79e",
+  "size": 1348852,
+  "subdir": "linux-64",
+  "timestamp": 1645009398817,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/widgetsnbextension-3.5.2-py310h06a4308_0.tar.bz2",
+  "version": "3.5.2"
+}

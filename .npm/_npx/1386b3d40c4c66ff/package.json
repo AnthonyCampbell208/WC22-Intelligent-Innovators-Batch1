@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cocalc/project": "file:../../../../../cocalc/src/packages/project"
+  }
+}

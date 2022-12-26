@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py310h7f8727e_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "features": "",
+  "fn": "mistune-0.8.4-py310h7f8727e_1000.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "33fe473ae7a1202e28c9143014029f62",
+  "name": "mistune",
+  "platform": "linux",
+  "sha256": "2074ac064fd4472eef8858d01cbf8475e775503f6b10803b2882c7d77fa394b9",
+  "size": 55705,
+  "subdir": "linux-64",
+  "timestamp": 1640791663692,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/mistune-0.8.4-py310h7f8727e_1000.tar.bz2",
+  "version": "0.8.4"
+}

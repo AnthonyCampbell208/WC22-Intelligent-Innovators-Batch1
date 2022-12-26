@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "six >=1.5"
+  ],
+  "license": "BSD-3-Clause and Apache",
+  "license_family": "BSD",
+  "name": "python-dateutil",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1626374695070,
+  "version": "2.8.2"
+}

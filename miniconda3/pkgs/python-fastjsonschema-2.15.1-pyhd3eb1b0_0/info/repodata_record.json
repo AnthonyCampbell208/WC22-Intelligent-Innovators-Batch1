@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.3"
+  ],
+  "features": "",
+  "fn": "python-fastjsonschema-2.15.1-pyhd3eb1b0_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "dd7a6954bcfe644d0bfe769f9b328485",
+  "name": "python-fastjsonschema",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "d6b000eefa62659c9bc2a6cc5bfada16220b8e60c362f7b1d47d7d1c36bacae7",
+  "size": 27730,
+  "subdir": "noarch",
+  "timestamp": 1620414899807,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/python-fastjsonschema-2.15.1-pyhd3eb1b0_0.tar.bz2",
+  "version": "2.15.1"
+}

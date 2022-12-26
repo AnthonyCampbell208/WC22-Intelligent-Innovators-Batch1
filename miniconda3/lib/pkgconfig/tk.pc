@@ -1,0 +1,15 @@
+# tk pkg-config source file
+
+prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+exec_prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+libdir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib
+includedir=${prefix}/include
+
+Name: The Tk Toolkit
+Description: Tk is a cross-platform graphical user interface toolkit, the standard GUI not only for Tcl, but for many other dynamic languages as well.
+URL: https://www.tcl-lang.org/
+Version: 8.6.12
+Requires: tcl >= 8.6
+Libs: -L${libdir} -ltk8.6 -ltkstub8.6
+Libs.private:  -lX11
+Cflags: -I${includedir}

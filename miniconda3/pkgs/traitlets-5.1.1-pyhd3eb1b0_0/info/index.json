@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.7"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "traitlets",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1636710328477,
+  "version": "5.1.1"
+}

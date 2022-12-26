@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "pygments >=2.4.1,<3",
+    "python"
+  ],
+  "features": "",
+  "fn": "jupyterlab_pygments-0.1.2-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "33624a42ee387bf9918ea98b4e7b31fc",
+  "name": "jupyterlab_pygments",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "3cf088eceac1016e2dd2164e52d23ccf6687ea0d57a6afa295a19b24fb049201",
+  "size": 8173,
+  "subdir": "noarch",
+  "timestamp": 1601490751973,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/jupyterlab_pygments-0.1.2-py_0.tar.bz2",
+  "version": "0.1.2"
+}

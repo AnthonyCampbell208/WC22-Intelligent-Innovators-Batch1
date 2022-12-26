@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [
+    "pyppeteer >=1,<1.1"
+  ],
+  "depends": [
+    "beautifulsoup4",
+    "bleach",
+    "defusedxml",
+    "entrypoints >=0.2.2",
+    "jinja2 >=2.4",
+    "jupyter_core",
+    "jupyterlab_pygments",
+    "mistune >=0.8.1,<2",
+    "nbclient >=0.5.0,<0.6.0",
+    "nbformat >=4.4",
+    "pandocfilters >=1.4.1",
+    "pygments >=2.4.1",
+    "python >=3.10,<3.11.0a0",
+    "testpath",
+    "traitlets >=5.0"
+  ],
+  "features": "",
+  "fn": "nbconvert-6.4.4-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "24ab3980f468b287cd0b07ccba04d9b4",
+  "name": "nbconvert",
+  "platform": "linux",
+  "sha256": "48e41d1613f4be84f659583a5063e65eb388e4e5531d24844dd3af7ddaf436f1",
+  "size": 570542,
+  "subdir": "linux-64",
+  "timestamp": 1649752052948,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/nbconvert-6.4.4-py310h06a4308_0.tar.bz2",
+  "version": "6.4.4"
+}

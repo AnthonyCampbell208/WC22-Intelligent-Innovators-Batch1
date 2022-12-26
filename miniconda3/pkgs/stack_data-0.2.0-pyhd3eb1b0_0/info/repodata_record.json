@@ -1,0 +1,27 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "asttokens",
+    "executing",
+    "pure_eval",
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "stack_data-0.2.0-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "fa3edcfd4c2c0d744bc177cbfcd77626",
+  "name": "stack_data",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "94e18c3bb250423255b00c9e3dd64880e076a1b8c2701c43492b2cc5e7cb91f3",
+  "size": 21658,
+  "subdir": "noarch",
+  "timestamp": 1646927641146,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/stack_data-0.2.0-pyhd3eb1b0_0.tar.bz2",
+  "version": "0.2.0"
+}

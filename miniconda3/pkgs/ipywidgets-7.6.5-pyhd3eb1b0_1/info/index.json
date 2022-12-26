@@ -1,0 +1,22 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "depends": [
+    "ipykernel >=4.5.1",
+    "ipython >=4.0.0",
+    "jupyterlab_widgets >=1.0.0",
+    "nbformat >=4.2.0",
+    "python",
+    "traitlets >=4.3.1,<6.0.0",
+    "widgetsnbextension >=3.5.0,<3.6.0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "ipywidgets",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1634143167395,
+  "version": "7.6.5"
+}

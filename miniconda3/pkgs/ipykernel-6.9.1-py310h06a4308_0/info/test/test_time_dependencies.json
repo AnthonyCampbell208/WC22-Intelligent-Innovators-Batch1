@@ -1,0 +1,1 @@
+["numpy >=1.16.1", "flaky", "pytest-cov", "pytest-timeout", "curio", "trio", "ipyparallel", "pip", "matplotlib-base", "pytest !=5.3.4"]

@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "jupyter_client >=6.1.5",
+    "nbformat >=5.0",
+    "nest-asyncio",
+    "python >=3.10,<3.11.0a0",
+    "traitlets >=5.0.0"
+  ],
+  "features": "",
+  "fn": "nbclient-0.5.13-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "dbb43e77b5e495a1bd256459f9dd2d76",
+  "name": "nbclient",
+  "platform": "linux",
+  "sha256": "e98c9c94fbc68a28dff1d259f5e5a12b181644ed0461dd8939076830d4caa87e",
+  "size": 99326,
+  "subdir": "linux-64",
+  "timestamp": 1650290293630,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/nbclient-0.5.13-py310h06a4308_0.tar.bz2",
+  "version": "0.5.13"
+}

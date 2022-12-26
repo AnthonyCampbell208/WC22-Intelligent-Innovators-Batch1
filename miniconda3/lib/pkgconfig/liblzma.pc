@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+exec_prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+libdir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib
+includedir=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

@@ -1,0 +1,64 @@
+# This file created by conda-build 3.21.6
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Fri Nov 12 08:33:27 2021
+# ------------------------------------------------
+
+package:
+  name: soupsieve
+  version: 2.3.1
+source:
+  sha256: b8d49b1cd4f037c7082a9683dfa1801aa2597fb11c3a1155b7a5b94829b4f1f9
+  url: https://pypi.io/packages/source/s/soupsieve/soupsieve-2.3.1.tar.gz
+build:
+  noarch: python
+  number: '0'
+  script: /tmp/build/80754af9/soupsieve_1636706018808/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+    -m pip install . --no-deps -vv
+  string: pyhd3eb1b0_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.10.26 h06a4308_2
+    - certifi 2021.10.8 py39h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1l h7f8727e_0
+    - pip 21.2.4 py39h06a4308_0
+    - python 3.9.7 h12debd9_1
+    - readline 8.1 h27cfd23_0
+    - setuptools 58.0.4 py39h06a4308_0
+    - sqlite 3.36.0 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tzdata 2021e hda174b7_0
+    - wheel 0.37.0 pyhd3eb1b0_1
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - python >=3.6
+test:
+  commands:
+    - pip check
+  imports:
+    - soupsieve
+  requires:
+    - beautifulsoup4
+    - pip
+    - python <3.10
+about:
+  dev_url: https://github.com/facelessuser/soupsieve
+  doc_url: https://facelessuser.github.io/soupsieve/
+  home: http://facelessuser.github.io/soupsieve
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.md
+  summary: A modern CSS selector implementation for BeautifulSoup
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jschueller

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py310h7f8727e_0",
+  "build_number": 0,
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pyrsistent",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1640807221148,
+  "version": "0.18.0"
+}

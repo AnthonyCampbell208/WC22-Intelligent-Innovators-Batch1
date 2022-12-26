@@ -1,0 +1,61 @@
+{% set version = "4.4.0" %}
+
+package:
+  name: jsonschema
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/j/jsonschema/jsonschema-{{ version }}.tar.gz
+  sha256: 636694eb41b3535ed608fe04129f26542b59ed99808b4f688aa32dcf55317a83
+
+build:
+  number: 0
+  skip: True  # [py<37]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - jsonschema = jsonschema.cli:main
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools >=40.6.0
+    - setuptools_scm >=3.4
+    - toml
+    - wheel
+  run:
+    - python
+    - attrs >=17.4.0
+    - importlib_metadata  # [py<38]
+    - importlib_resources>=1.4.0  # [py<39]
+    - pyrsistent >=0.14.0,!=0.17.0,!=0.17.1,!=0.17.2
+    - typing_extensions  # [py<38]
+
+test:
+  imports:
+    - jsonschema
+  requires:
+    - pip
+  commands:
+    - python -m pip check
+    - jsonschema --version
+    - jsonschema --help
+
+about:
+  home: https://github.com/Julian/jsonschema
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: An implementation of JSON Schema validation for Python
+  description: |
+    jsonschema is an implementation of JSON Schema for Python
+  doc_url: https://python-jsonschema.readthedocs.org
+  doc_source_url: https://github.com/Julian/jsonschema/blob/v{{ version }}/docs/index.rst
+  dev_url: https://github.com/Julian/jsonschema
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - ocefpaf
+    - nehaljwani
+    - bollwyvl

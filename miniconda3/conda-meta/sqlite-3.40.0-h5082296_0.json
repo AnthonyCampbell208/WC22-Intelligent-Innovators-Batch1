@@ -1,0 +1,57 @@
+{
+  "build": "h5082296_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "readline >=8.0,<9.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/sqlite-3.40.0-h5082296_0",
+  "features": "",
+  "files": [
+    "bin/sqlite3",
+    "include/sqlite3.h",
+    "include/sqlite3ext.h",
+    "lib/libsqlite3.so",
+    "lib/libsqlite3.so.0",
+    "lib/libsqlite3.so.0.8.6",
+    "lib/pkgconfig/sqlite3.pc",
+    "share/man/man1/sqlite3.1"
+  ],
+  "fn": "sqlite-3.40.0-h5082296_0.conda",
+  "legacy_bz2_md5": "12abdad9b7ca20d49af7211fed4d6f59",
+  "legacy_bz2_size": 1626448,
+  "license": "blessing",
+  "license_family": "Other",
+  "link": {
+    "source": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/sqlite-3.40.0-h5082296_0",
+    "type": 1
+  },
+  "md5": "d1300b056e728ea61a0bf135b035e60d",
+  "name": "sqlite",
+  "package_tarball_full_path": "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/pkgs/sqlite-3.40.0-h5082296_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/sqlite3.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/sqlite_1669138272150/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "63dbf4fb4db576b7174fc62ce3fe89f761309d8e7d885d448a9e3f5a0fb79a43",
+        "sha256_in_prefix": "06823613701edc293bf95407b537387d8f9418ee839642fe4787e3f18590ace2",
+        "size_in_bytes": 531
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/linux-64::sqlite==3.40.0=h5082296_0[md5=d1300b056e728ea61a0bf135b035e60d]",
+  "sha256": "3df5f55bbb941e772bb866bf18bec7b11094f01cc0ac41225705caedd8d0e4a8",
+  "size": 1223617,
+  "subdir": "linux-64",
+  "timestamp": 1669138335049,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/sqlite-3.40.0-h5082296_0.conda",
+  "version": "3.40.0"
+}

@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "soupsieve-2.3.1-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "4d8b31e39d28e7e7d218f10301034a01",
+  "name": "soupsieve",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a378ce2077633ffb6a0b680539042a34670f1d404f0e20cd479de40d5355a938",
+  "size": 33937,
+  "subdir": "noarch",
+  "timestamp": 1636706048080,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/soupsieve-2.3.1-pyhd3eb1b0_0.tar.bz2",
+  "version": "2.3.1"
+}

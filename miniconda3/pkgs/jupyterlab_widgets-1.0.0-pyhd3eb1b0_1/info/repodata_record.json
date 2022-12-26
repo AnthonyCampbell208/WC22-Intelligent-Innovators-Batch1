@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "jupyterlab_widgets-1.0.0-pyhd3eb1b0_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "fe074ad242110f3a9cd1e1501b2dde1d",
+  "name": "jupyterlab_widgets",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "68bad9de7a3aaa741623d98ba83ce769c7698ecbe75270a8eeac2b8327899d03",
+  "size": 136917,
+  "subdir": "noarch",
+  "timestamp": 1609884377338,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/jupyterlab_widgets-1.0.0-pyhd3eb1b0_1.tar.bz2",
+  "version": "1.0.0"
+}

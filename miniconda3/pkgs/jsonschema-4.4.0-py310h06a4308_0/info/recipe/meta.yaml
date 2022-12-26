@@ -1,0 +1,82 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jsonschema-4.4.0-python_3.10-on-linux_64, last modified Fri Apr 15 12:30:39 2022
+# ------------------------------------------------
+
+package:
+  name: jsonschema
+  version: 4.4.0
+source:
+  sha256: 636694eb41b3535ed608fe04129f26542b59ed99808b4f688aa32dcf55317a83
+  url: https://pypi.io/packages/source/j/jsonschema/jsonschema-4.4.0.tar.gz
+build:
+  entry_points:
+    - jsonschema = jsonschema.cli:main
+  number: '0'
+  script: /tmp/build/80754af9/jsonschema_1650007830677/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+    -m pip install . --no-deps -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.3.29 h06a4308_0
+    - certifi 2021.5.30 py310h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1n h7f8727e_0
+    - packaging 21.3 pyhd3eb1b0_0
+    - pip 21.2.4 py310h06a4308_0
+    - pyparsing 3.0.4 pyhd3eb1b0_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - setuptools-scm 6.3.2 pyhd3eb1b0_0
+    - setuptools_scm 6.3.2 hd3eb1b0_0
+    - sqlite 3.38.2 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tomli 1.2.2 pyhd3eb1b0_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7f8727e_4
+  run:
+    - attrs >=17.4.0
+    - pyrsistent >=0.14.0,!=0.17.0,!=0.17.1,!=0.17.2
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - python -m pip check
+    - jsonschema --version
+    - jsonschema --help
+  imports:
+    - jsonschema
+  requires:
+    - pip
+about:
+  description: 'jsonschema is an implementation of JSON Schema for Python
+
+    '
+  dev_url: https://github.com/Julian/jsonschema
+  doc_source_url: https://github.com/Julian/jsonschema/blob/v4.4.0/docs/index.rst
+  doc_url: https://python-jsonschema.readthedocs.org
+  home: https://github.com/Julian/jsonschema
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: An implementation of JSON Schema validation for Python
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - bollwyvl
+    - minrk
+    - nehaljwani
+    - ocefpaf

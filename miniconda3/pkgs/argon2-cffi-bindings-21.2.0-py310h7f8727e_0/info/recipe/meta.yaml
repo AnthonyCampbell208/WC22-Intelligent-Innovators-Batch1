@@ -1,0 +1,94 @@
+# This file created by conda-build 3.21.7
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/argon2-cffi-bindings-21.2.0-python_3.10-on-linux_64, last modified Fri Feb 11 08:47:44 2022
+# ------------------------------------------------
+
+package:
+  name: argon2-cffi-bindings
+  version: 21.2.0
+source:
+  sha256: bb89ceffa6c791807d1305ceb77dbfacc5aa499891d2c55661c6459651fc39e3
+  url: https://pypi.io/packages/source/a/argon2-cffi-bindings/argon2-cffi-bindings-21.2.0.tar.gz
+build:
+  number: '0'
+  script:
+    - ln -sf $RANLIB $BUILD_PREFIX/bin/ranlib
+    - /tmp/build/80754af9/argon2-cffi-bindings_1644553347904/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+      -m pip install . -vv
+  string: py310h7f8727e_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.35.1 h27ae35d_9
+    - binutils_linux-64 2.35.1 h454624a_30
+    - gcc_impl_linux-64 7.5.0 h7105cf2_17
+    - gcc_linux-64 7.5.0 h8f34230_30
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libgcc-devel_linux-64 7.5.0 hbbeae57_17
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2021.10.26 h06a4308_2
+    - certifi 2021.5.30 py310h06a4308_0
+    - cffi 1.15.0 py310hd667e15_1
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1m h7f8727e_0
+    - packaging 21.3 pyhd3eb1b0_0
+    - pip 21.2.4 py310h06a4308_0
+    - pycparser 2.21 pyhd3eb1b0_0
+    - pyparsing 3.0.4 pyhd3eb1b0_0
+    - python 3.10.0 h12debd9_4
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 58.0.4 py310h06a4308_0
+    - setuptools-scm 6.3.2 pyhd3eb1b0_0
+    - setuptools_scm 6.3.2 hd3eb1b0_0
+    - sqlite 3.37.2 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tomli 1.2.2 pyhd3eb1b0_0
+    - tzdata 2021e hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7f8727e_4
+  run:
+    - cffi >=1.0.1
+    - libgcc-ng >=7.5.0
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+  imports:
+    - _argon2_cffi_bindings
+  requires:
+    - pip
+about:
+  description: 'argon2-cffi-bindings provides low-level CFFI bindings to the Argon2
+
+    password hashing algorithm including a vendored version of them.
+
+    '
+  dev_url: https://github.com/hynek/argon2-cffi-bindings
+  doc_url: https://github.com/hynek/argon2-cffi-bindings
+  home: https://github.com/hynek/argon2-cffi-bindings
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Low-level Python CFFI Bindings for Argon2
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - stuertz

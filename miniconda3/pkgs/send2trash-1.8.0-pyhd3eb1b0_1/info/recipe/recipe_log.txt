@@ -1,0 +1,113 @@
+commit 533e3bc6f3d5b85adf7e68afc06945c91097bf03
+Merge: 699d241 ccc743e
+Author: dkomisar <dkomisar@users.noreply.github.com>
+Date:   Thu Sep 23 09:47:16 2021 -0400
+
+    Merge pull request #3 from AnacondaRecipes/update-1.8.0
+    
+    send2trash: updated to 1.8.0
+
+commit ccc743e8263066bb20aba3336ab2b0dbfbf216be
+Author: dkomisar <dkomisar@anaconda.com>
+Date:   Wed Sep 22 16:06:11 2021 -0400
+
+    add setuptools and wheel
+
+commit 4c7e96f2a0ef73ea68cb627b8ccf7e31006e3664
+Author: dkomisar <dkomisar@anaconda.com>
+Date:   Tue Sep 21 18:28:33 2021 -0400
+
+    send2trash: update urls
+
+commit b87ea40b36823100fa87e64cccefed2bf5a62ddc
+Author: dkomisar <dkomisar@anaconda.com>
+Date:   Tue Sep 21 18:05:24 2021 -0400
+
+    send2trash: added pip check
+
+commit 8ca4183c9cf83b5466a072def2870ee0ffce3280
+Author: dkomisar <dkomisar@anaconda.com>
+Date:   Tue Sep 21 17:52:55 2021 -0400
+
+    send2trash: updated to 1.8.0
+
+commit 699d2411f126b0d2ec6c1835420a59e0ba8f0939
+Author: Anthony DiPietro <adipietro@anaconda.com>
+Date:   Wed Dec 9 09:48:35 2020 -0500
+
+    Bumping build number for noarch.
+
+commit b7da53392bf1ff709986d0d889c8f682115ada1d
+Author: Ray Donnelly <mingw.android@gmail.com>
+Date:   Tue Aug 14 17:51:57 2018 -0500
+
+    build => host
+
+commit 89e12ea24d82308d69e9957de912d86b581acdf5
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun Aug 9 04:08:03 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 67d15056252c2e1949ef98caad2856f00eabe43b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 19 20:51:27 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 403b03116422f54e2ad305678b9fc314b365cbe0
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon May 18 09:31:08 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit f284794836a6890baaef226f798061609043ee6a
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Wed May 13 00:57:48 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TurnOff
+
+commit 589d1851792ab801d2021429d0e3a4a53c0c3218
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue May 12 06:33:52 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit cda565efb9468de59582005e0c44be4b8b52fb36
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Tue Mar 3 04:00:55 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit e6ab48a3908e672d22d21baeb48f4023acdafae2
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:54:41 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit a6707b62902ad91d86d86c6803133b08e52ea6c6
+Merge: b3a6cb5 94cad3b
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Feb 18 09:29:27 2018 -0500
+
+    Merge pull request #2 from bollwyvl/bump/1.5.0
+    
+    bump to 1.5.0, use upstream license
+
+commit 94cad3b8974ebf4790669fb363c86a9ff215e3dc
+Author: Nicholas Bollweg <nick.bollweg@gmail.com>
+Date:   Sun Feb 18 09:24:55 2018 -0500
+
+    bump to 1.5.0, use upstream license
+
+commit b3a6cb506fc23a0fd9b30a5aee2bd8b4b2ffef30
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jan 6 03:53:16 2018 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit a18fc26885cefe0cb1f81ae2faa9f83b500ac1b2
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Jan 6 03:52:46 2018 +0000
+
+    Initial feedstock commit with conda-smithy 2.4.5.

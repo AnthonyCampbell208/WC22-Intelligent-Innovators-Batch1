@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py310h06a4308_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "jsonschema >=2.6",
+    "jupyter_core",
+    "python >=3.10,<3.11.0a0",
+    "python-fastjsonschema",
+    "traitlets >=4.1"
+  ],
+  "features": "",
+  "fn": "nbformat-5.3.0-py310h06a4308_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "fe993f67b206f6355501d966e8d97d6b",
+  "name": "nbformat",
+  "platform": "linux",
+  "sha256": "1a202beb2b216d4319bb137778827f13ac2a90b854f8a164ebe1b14377bbdb73",
+  "size": 146464,
+  "subdir": "linux-64",
+  "timestamp": 1649844967383,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/nbformat-5.3.0-py310h06a4308_0.tar.bz2",
+  "version": "5.3.0"
+}

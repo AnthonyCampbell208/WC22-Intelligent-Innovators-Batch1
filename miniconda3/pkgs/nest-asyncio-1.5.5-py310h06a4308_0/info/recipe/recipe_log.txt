@@ -1,0 +1,290 @@
+commit 2c00df204262c844a420e0b3b699c8f78779be9b
+Author: Serhii Kupriienko <skupriienko@anaconda.com>
+Date:   Wed Apr 13 10:58:50 2022 +0000
+
+    Remove noarch, add missing packages
+
+commit 9d4b249525ec51c28eea0f77cf58fef6b0a423a1
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Thu Dec 2 12:23:11 2021 +0000
+
+    DOR update to 1.5.4
+
+commit ccecd4068afb92246bee7e31c6c9e30db44cab80
+Author: Connor Martin <connormartin7@gmail.com>
+Date:   Thu Feb 18 14:34:04 2021 -0600
+
+    remove patch
+
+commit 98c1348b0a78f8622daf914a2ff4717122c294c9
+Author: anaconda-pkg-build <anaconda-pkg-build@anaconda.com>
+Date:   Thu Feb 18 19:23:40 2021 +0000
+
+    DOR update to 1.5.1
+
+commit 3a2dd6bf486cd1d06f7d41c973b329391093f52d
+Merge: 04df594 db458fc
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Thu Nov 12 10:43:53 2020 -0500
+
+    Merge pull request #13 from regro-cf-autotick-bot/1.4.3_h1ac90d
+    
+    nest-asyncio v1.4.3
+
+commit db458fc33aaa883b1950a3f526f0679218ce28be
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Nov 12 05:32:41 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.5, conda-smithy 3.8.5, and conda-forge-pinning 2020.11.11.15.57.25
+
+commit 78b8911d3c8db326589c2738607cd0c999897e24
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Thu Nov 12 05:32:35 2020 +0000
+
+    updated v1.4.3
+
+commit 04df594ed490426fc22e851f7acc0a9b39a50d19
+Merge: a7f0b8a 7b9d470
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Sun Nov 1 23:19:05 2020 -0500
+
+    Merge pull request #12 from regro-cf-autotick-bot/1.4.2_h03e4f1
+    
+    nest-asyncio v1.4.2
+
+commit 7b9d4703f43911e7e797370e734acd41c1810ebe
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 25 15:46:11 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.4, conda-smithy 3.8.2, and conda-forge-pinning 2020.10.24.16.47.03
+
+commit 701096fc1c9948a7544cb0fb4ca0e6918cfe26ff
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Sun Oct 25 15:46:05 2020 +0000
+
+    updated v1.4.2
+
+commit a7f0b8a7eec8a7c5285b4653616f9eaf39feb0e6
+Merge: 8085dc3 df4c38e
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Mon Sep 28 21:22:58 2020 -0400
+
+    Merge pull request #11 from regro-cf-autotick-bot/1.4.1_had15b7
+    
+    nest-asyncio v1.4.1
+
+commit df4c38e6215f1e9646ce2a6d4b1dafe75ee3f245
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Sep 28 09:39:56 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.20.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.09.26.15.06.30
+
+commit 6b8f33836a661b168c1168b49644174d352c9655
+Author: regro-cf-autotick-bot <36490558+regro-cf-autotick-bot@users.noreply.github.com>
+Date:   Mon Sep 28 09:39:50 2020 +0000
+
+    updated v1.4.1
+
+commit 8085dc3dabaa86bd7bea2d67b2a8c0dae63920c7
+Merge: be75b49 81bcaf6
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Sep 21 21:18:49 2020 +0200
+
+    Merge pull request #10 from SylvainCorlay/patch-infinite-loop-sleep-0
+    
+    Add upstream patch preventing infinite loop
+
+commit 81bcaf600c156ea5f75fe17f812885328e454abc
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Mon Sep 21 20:48:07 2020 +0200
+
+    Add upstream patch preventing infinite loop
+
+commit be75b4909b6f77494feb642b7f9e5e0591450973
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 09:22:52 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 64f9f33e22a915dc2587162b6bdedba46e88e6fe
+Merge: 95a49bc 52602e2
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Fri Jul 17 10:35:20 2020 -0400
+
+    Merge pull request #9 from regro-cf-autotick-bot/1.4.0_hba4bfe
+    
+    nest-asyncio v1.4.0
+
+commit 52602e2f7cb0ad1d84c136df2a453acbb548b9ad
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 17 12:04:43 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.17.07.14.20
+
+commit cd663b08dcfd481856602a57dc2c972c9cf8a4ae
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 17 12:04:35 2020 +0000
+
+    updated v1.4.0
+
+commit 95a49bcc9b3b3b5e9b633471873702674e66dfba
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:00:23 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit e731ddf86e225a5156264265a5002be26ecc6e44
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 00:44:27 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 28c2ffd3246d4736c1c39fe86273ebb690a6e0e8
+Merge: 11c9b99 d944cb4
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Sun May 3 09:55:35 2020 -0400
+
+    Merge pull request #8 from regro-cf-autotick-bot/1.3.3_h944692
+    
+    nest-asyncio v1.3.3
+
+commit d944cb4359ca216e2144cfa9bddf7600838778cb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 3 13:47:59 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.0, and conda-forge-pinning 2020.05.02.14.58.15
+
+commit 79be0b3c43bf02da090bbe0fcedb8ddffd4ae879
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun May 3 13:47:37 2020 +0000
+
+    updated v1.3.3
+
+commit 11c9b992d99fc29dab425a2f6c35d3ddb0a92e30
+Merge: 3f51230 4e11eae
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Mon Mar 30 10:27:38 2020 -0400
+
+    Merge pull request #7 from regro-cf-autotick-bot/1.3.2
+    
+    nest-asyncio v1.3.2
+
+commit 4e11eaefb554a65bb71b84ecd3f23ab8e73de0ee
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Mar 29 15:25:05 2020 +0000
+
+    updated v1.3.2
+
+commit 3f51230f959a32fded15dab68c93d187955bf1e2
+Merge: e9d193e 891fa3d
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Wed Mar 11 18:46:49 2020 -0400
+
+    Merge pull request #6 from regro-cf-autotick-bot/1.3.0
+    
+    nest-asyncio v1.3.0
+
+commit 891fa3d3f5847f7a5c67e30c47e179908772952f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 10 10:43:06 2020 +0000
+
+    updated v1.3.0
+
+commit e9d193e75af760b53849d99d5f7a6092051407d0
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:23:57 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 61ca26f1c56076d1ed074b79f52ba79c5b08ae6a
+Merge: 312f5f2 1eaecde
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Thu Jan 30 10:33:40 2020 -0500
+
+    Merge pull request #5 from regro-cf-autotick-bot/1.2.3
+    
+    nest-asyncio v1.2.3
+
+commit 1eaecdeb75afda3a5dc3dcfb327f65db40429827
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 28 19:00:06 2020 +0000
+
+    updated v1.2.3
+
+commit 312f5f2ab59296b185913707614a0eb246b52fb9
+Merge: 57d3088 248ea8d
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Tue Jan 14 09:19:59 2020 -0500
+
+    Merge pull request #4 from regro-cf-autotick-bot/1.2.2
+    
+    nest-asyncio v1.2.2
+
+commit 248ea8de4e2eef28feda15e5bd99e7a98478429b
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Jan 14 12:16:26 2020 +0000
+
+    updated v1.2.2
+
+commit 57d30887420f111088a5be4ed32706d5c8c6db77
+Merge: f13d9ab cb0c68f
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Sat Dec 7 20:00:44 2019 -0500
+
+    Merge pull request #3 from regro-cf-autotick-bot/1.2.1
+    
+    nest-asyncio v1.2.1
+
+commit cb0c68faffdfe9e52eae10a22af5837adcf96884
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 7 11:23:41 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.3, and conda-forge-pinning 2019.12.02
+
+commit 015617d593feb9e4a9269295aa39a8e46289b7a8
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Dec 7 11:23:24 2019 +0000
+
+    updated v1.2.1
+
+commit f13d9abbba4d9e3ff48502a6c1a9244d2dffe8cc
+Merge: e3f9cd8 4d999fc
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Sun Aug 25 20:25:54 2019 -0400
+
+    Merge pull request #2 from regro-cf-autotick-bot/1.2.0
+    
+    nest-asyncio v1.2.0
+
+commit 4d999fc9bb6f07d2640fbe8de8ba7b15a252ddbb
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Aug 25 11:30:27 2019 +0000
+
+    updated v1.2.0
+
+commit e3f9cd86464b8080e429a45cd63b91bee19cc635
+Merge: 5de3b35 02f5107
+Author: Josh Dimarsky <24758845+yehoshuadimarsky@users.noreply.github.com>
+Date:   Sat Aug 17 21:47:54 2019 -0400
+
+    Merge pull request #1 from regro-cf-autotick-bot/1.1.0
+    
+    nest-asyncio v1.1.0
+
+commit 02f5107c6a8c22e29b5e02edf346b5a4a3587a01
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 17 17:28:06 2019 +0000
+
+    updated v1.1.0
+
+commit 5de3b35b61e6b24b95f02e2dbd4ca8ae48dec808
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jul 23 14:23:01 2019 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 79cca95fb42947d51470512cb8d5756fc38b8a39
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Tue Jul 23 14:17:03 2019 +0000
+
+    Initial feedstock commit with conda-smithy 3.4.1.

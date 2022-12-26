@@ -1,0 +1,120 @@
+[?2004h(base) ]0;~[01;34m~[00m$ python3
+[?2004lPython 3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pandas'
+>>> exit()
+[?2004h(base) ]0;~[01;34m~[00m$ cd WC22-Data-Science
+[?2004l[?2004h(base) ]0;~/WC22-Data-Science[01;34m~/WC22-Data-Science[00m$ python ins[K[K[K[K[K[K[K[K[K[Kpip install -r requirements.txt
+[?2004lCollecting streamlit
+  Downloading streamlit-1.16.0-py2.py3-none-any.whl (9.2 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/9.2 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/9.2 MB[0m [31m102.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.7/9.2 MB[0m [31m53.9 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m9.2/9.2 MB[0m [31m93.0 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.2/9.2 MB[0m [31m65.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pandas
+  Downloading pandas-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/12.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/12.1 MB[0m [31m128.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.3/12.1 MB[0m [31m78.5 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.1/12.1 MB[0m [31m122.2 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.1/12.1 MB[0m [31m122.2 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.1/12.1 MB[0m [31m75.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting plotly
+  Downloading plotly-5.11.0-py2.py3-none-any.whl (15.3 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/15.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.1/15.3 MB[0m [31m183.1 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.3/15.3 MB[0m [31m175.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.3/15.3 MB[0m [31m175.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m8.4/15.3 MB[0m [31m64.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m9.7/15.3 MB[0m [31m55.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━[0m [32m11.0/15.3 MB[0m [31m51.2 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m15.3/15.3 MB[0m [31m50.1 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m15.3/15.3 MB[0m [31m50.1 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.3/15.3 MB[0m [31m38.0 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: packaging>=14.1 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from streamlit->-r requirements.txt (line 1)) (21.3)
+Collecting tzlocal>=1.1
+  Downloading tzlocal-4.2-py3-none-any.whl (19 kB)
+Collecting protobuf<4,>=3.12
+  Downloading protobuf-3.20.3-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m90.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting gitpython!=3.1.19
+  Downloading GitPython-3.1.29-py3-none-any.whl (182 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/182.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m182.5/182.5 kB[0m [31m37.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pillow>=6.2.0
+  Downloading Pillow-9.3.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.3 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m3.3/3.3 MB[0m [31m163.9 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.3/3.3 MB[0m [31m85.0 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting blinker>=1.0.0
+  Downloading blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/96.6 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m96.6/96.6 kB[0m [31m20.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting cachetools>=4.0
+  Downloading cachetools-5.2.0-py3-none-any.whl (9.3 kB)
+Collecting validators>=0.2
+  Downloading validators-0.20.0.tar.gz (30 kB)
+  Preparing metadata (setup.py) ... [?25l- done
+[?25hCollecting rich>=10.11.0
+  Downloading rich-12.6.0-py3-none-any.whl (237 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/237.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m237.5/237.5 kB[0m [31m44.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting altair>=3.2.0
+  Downloading altair-4.2.0-py3-none-any.whl (812 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/812.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m812.8/812.8 kB[0m [31m90.2 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: typing-extensions>=3.10.0.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from streamlit->-r requirements.txt (line 1)) (4.3.0)
+Requirement already satisfied: python-dateutil in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from streamlit->-r requirements.txt (line 1)) (2.8.2)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: tornado>=5.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from streamlit->-r requirements.txt (line 1)) (6.1)
+Collecting semver
+  Downloading semver-2.13.0-py2.py3-none-any.whl (12 kB)
+Collecting pyarrow>=4.0
+  Downloading pyarrow-10.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (35.9 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/35.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.6/35.9 MB[0m [31m109.6 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.6/35.9 MB[0m [31m137.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.6/35.9 MB[0m [31m177.5 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.7/35.9 MB[0m [31m172.2 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m15.8/35.9 MB[0m [31m80.4 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━[0m [32m19.8/35.9 MB[0m [31m73.5 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m20.6/35.9 MB[0m [31m60.8 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m26.7/35.9 MB[0m [31m99.9 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m29.4/35.9 MB[0m [31m108.1 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m30.7/35.9 MB[0m [31m95.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m35.6/35.9 MB[0m [31m91.9 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m35.9/35.9 MB[0m [31m90.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m35.9/35.9 MB[0m [31m90.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m35.9/35.9 MB[0m [31m90.3 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m35.9/35.9 MB[0m [31m90.3 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m35.9/35.9 MB[0m [31m39.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting importlib-metadata>=1.4
+  Downloading importlib_metadata-5.2.0-py3-none-any.whl (21 kB)
+Collecting pympler>=0.9
+  Downloading Pympler-1.0.1-py3-none-any.whl (164 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/164.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m164.8/164.8 kB[0m [31m32.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pydeck>=0.1.dev5
+  Downloading pydeck-0.8.0-py2.py3-none-any.whl (4.7 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/4.7 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m4.2/4.7 MB[0m [31m200.4 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.7/4.7 MB[0m [31m81.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting numpy
+  Downloading numpy-1.24.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/17.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.5/17.3 MB[0m [31m74.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m8.8/17.3 MB[0m [31m128.9 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━[0m [32m13.7/17.3 MB[0m [31m163.4 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m17.3/17.3 MB[0m [31m170.0 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m17.3/17.3 MB[0m [31m170.0 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m17.3/17.3 MB[0m [31m77.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting watchdog
+  Downloading watchdog-2.2.0-py3-none-manylinux2014_x86_64.whl (78 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/78.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m78.7/78.7 kB[0m [31m18.7 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: requests>=2.4 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from streamlit->-r requirements.txt (line 1)) (2.28.1)
+Collecting pytz>=2020.1
+  Downloading pytz-2022.7-py2.py3-none-any.whl (499 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/499.4 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m499.4/499.4 kB[0m [31m63.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting tenacity>=6.2.0
+  Downloading tenacity-8.1.0-py3-none-any.whl (23 kB)
+Requirement already satisfied: entrypoints in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (0.4)
+Requirement already satisfied: jinja2 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (3.0.3)
+Requirement already satisfied: toolz in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (0.12.0)
+Requirement already satisfied: jsonschema>=3.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (4.4.0)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.10-py3-none-any.whl (62 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/62.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m62.7/62.7 kB[0m [31m14.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting zipp>=0.5
+  Downloading zipp-3.11.0-py3-none-any.whl (6.6 kB)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from packaging>=14.1->streamlit->-r requirements.txt (line 1)) (3.0.4)
+Requirement already satisfied: six>=1.5 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from python-dateutil->streamlit->-r requirements.txt (line 1)) (1.16.0)
+Requirement already satisfied: charset-normalizer<3,>=2 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from requests>=2.4->streamlit->-r requirements.txt (line 1)) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from requests>=2.4->streamlit->-r requirements.txt (line 1)) (2022.6.15)
+Requirement already satisfied: idna<4,>=2.5 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from requests>=2.4->streamlit->-r requirements.txt (line 1)) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from requests>=2.4->streamlit->-r requirements.txt (line 1)) (1.26.13)
+Collecting commonmark<0.10.0,>=0.9.0
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/51.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m51.1/51.1 kB[0m [31m11.9 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: pygments<3.0.0,>=2.6.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from rich>=10.11.0->streamlit->-r requirements.txt (line 1)) (2.11.2)
+Collecting pytz-deprecation-shim
+  Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: decorator>=3.4.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from validators>=0.2->streamlit->-r requirements.txt (line 1)) (5.1.1)
+Collecting smmap<6,>=3.0.1
+  Downloading smmap-5.0.0-py3-none-any.whl (24 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from jinja2->altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (2.1.1)
+Requirement already satisfied: attrs>=17.4.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from jsonschema>=3.0->altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (21.4.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/lib/python3.10/site-packages (from jsonschema>=3.0->altair>=3.2.0->streamlit->-r requirements.txt (line 1)) (0.18.0)
+Collecting tzdata
+  Downloading tzdata-2022.7-py2.py3-none-any.whl (340 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/340.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m340.1/340.1 kB[0m [31m44.9 MB/s[0m eta [36m0:00:00[0m
+[?25hBuilding wheels for collected packages: validators
+  Building wheel for validators (setup.py) ... [?25l- done
+[?25h  Created wheel for validators: filename=validators-0.20.0-py3-none-any.whl size=19579 sha256=7773459438c2143d94fc77788b75f554d1d270d5b2841730fd755a9c506a2f0e
+  Stored in directory: /projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/.cache/pip/wheels/2d/55/25/123071088f4e466746cbadc923b1a31e08cea99ea9ef6bb35e
+Successfully built validators
+Installing collected packages: pytz, commonmark, zipp, watchdog, validators, tzdata, toml, tenacity, smmap, semver, rich, pympler, protobuf, pillow, numpy, click, cachetools, blinker, pytz-deprecation-shim, pydeck, pyarrow, plotly, pandas, importlib-metadata, gitdb, tzlocal, gitpython, altair, streamlit
+Successfully installed altair-4.2.0 blinker-1.5 cachetools-5.2.0 click-8.1.3 commonmark-0.9.1 gitdb-4.0.10 gitpython-3.1.29 importlib-metadata-5.2.0 numpy-1.24.0 pandas-1.5.2 pillow-9.3.0 plotly-5.11.0 protobuf-3.20.3 pyarrow-10.0.1 pydeck-0.8.0 pympler-1.0.1 pytz-2022.7 pytz-deprecation-shim-0.1.0.post0 rich-12.6.0 semver-2.13.0 smmap-5.0.0 streamlit-1.16.0 tenacity-8.1.0 toml-0.10.2 tzdata-2022.7 tzlocal-4.2 validators-0.20.0 watchdog-2.2.0 zipp-3.11.0
+[?2004h(base) ]0;~/WC22-Data-Science[01;34m~/WC22-Data-Science[00m$ cd
+[?2004l[?2004h(base) ]0;~[01;34m~[00m$ python3
+[?2004lPython 3.10.8 (main, Nov 24 2022, 14:13:03) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas
+>>> 

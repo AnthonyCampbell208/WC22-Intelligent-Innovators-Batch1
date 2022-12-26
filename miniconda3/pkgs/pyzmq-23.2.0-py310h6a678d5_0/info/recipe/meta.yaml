@@ -1,0 +1,111 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Wed Jul 13 14:56:22 2022
+# ------------------------------------------------
+
+package:
+  name: pyzmq
+  version: 23.2.0
+source:
+  sha256: a51f12a8719aad9dcfb55d456022f16b90abc8dde7d3ca93ce3120b40e3fa169
+  url: https://pypi.io/packages/source/p/pyzmq/pyzmq-23.2.0.tar.gz
+build:
+  ignore_run_exports: null
+  missing_dso_whitelist: null
+  number: '0'
+  string: py310h6a678d5_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - _sysroot_linux-64_curr_repodata_hack 3 haa98f57_10
+    - binutils_impl_linux-64 2.38 h2a08ee3_1
+    - binutils_linux-64 2.38.0 hc2dff05_0
+    - gcc_impl_linux-64 11.2.0 h1234567_1
+    - gcc_linux-64 11.2.0 h5c386dc_0
+    - gxx_impl_linux-64 11.2.0 h1234567_1
+    - gxx_linux-64 11.2.0 hc2dff05_0
+    - kernel-headers_linux-64 3.10.0 h57e8cba_10
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libgcc-devel_linux-64 11.2.0 h1234567_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-devel_linux-64 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - pkg-config 0.29.2 h1bed415_8
+    - sysroot_linux-64 2.17 h57e8cba_10
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.4.26 h06a4308_0
+    - certifi 2022.6.15 py310h06a4308_0
+    - cython 0.29.30 py310h6a678d5_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libsodium 1.0.18 h7b6447c_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - packaging 21.3 pyhd3eb1b0_0
+    - pip 22.1.2 py310h06a4308_0
+    - pyparsing 3.0.4 pyhd3eb1b0_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.5 hc218d9a_0
+    - tk 8.6.12 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zeromq 4.3.4 h2531618_0
+    - zlib 1.2.12 h7f8727e_2
+  run:
+    - libgcc-ng >=11.2.0
+    - libstdcxx-ng >=11.2.0
+    - python >=3.10,<3.11.0a0
+    - zeromq >=4.3.4,<4.4.0a0
+    - zeromq >=4.3.4,<4.4.0a0
+test:
+  commands:
+    - py.test --pyargs zmq.tests.test_socket
+  imports:
+    - zmq
+    - zmq.backend.cython.socket
+    - zmq.backend.cython.utils
+    - zmq.devices.monitoredqueue
+  requires:
+    - pytest
+about:
+  description: 'PyZMQ contains Python bindings for 0MQ. 0MQ is a lightweight and fast
+
+    messaging implementation.
+
+    '
+  dev_url: https://github.com/zeromq/pyzmq
+  doc_source_url: https://github.com/zeromq/pyzmq/blob/master/docs/source/index.rst
+  doc_url: https://pyzmq.readthedocs.org/
+  home: https://github.com/zeromq/pyzmq
+  license: BSD-3-Clause AND LGPL-3.0-or-later
+  license_family: BSD
+  license_file: COPYING.BSD
+  summary: Python bindings for zeromq
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 870b9ead-0fb3-461b-a79f-ef9bec815dae
+  recipe-maintainers:
+    - JohanMabille
+    - SylvainCorlay
+    - chenghlee
+    - jakirkham
+    - mingwandroid
+    - minrk
+    - msarahan
+    - ocefpaf
+    - pelson
+  remote_url: git@github.com:AnacondaRecipes/pyzmq-feedstock.git
+  sha: 0958566a6302f2b6d5bbeac15838c88dcd6ef8e9

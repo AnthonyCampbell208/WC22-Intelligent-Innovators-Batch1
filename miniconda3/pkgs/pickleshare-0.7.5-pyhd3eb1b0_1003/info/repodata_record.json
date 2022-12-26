@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3"
+  ],
+  "features": "",
+  "fn": "pickleshare-0.7.5-pyhd3eb1b0_1003.tar.bz2",
+  "license": "MIT",
+  "md5": "e68a6f315f41a8d814d833652bf38b9b",
+  "name": "pickleshare",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "ba9b23dea09b8fb44c49c1eed16163bd0f1cb64bb19c9e2591825738a6fa5918",
+  "size": 13374,
+  "subdir": "noarch",
+  "timestamp": 1606932077143,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/pickleshare-0.7.5-pyhd3eb1b0_1003.tar.bz2",
+  "version": "0.7.5"
+}

@@ -1,0 +1,83 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/nbformat-5.3.0-python_3.10-on-linux_64, last modified Wed Apr 13 10:12:31 2022
+# ------------------------------------------------
+
+package:
+  name: nbformat
+  version: 5.3.0
+source:
+  sha256: fcc5ab8cb74e20b19570b5be809e2dba9b82836fd2761a89066ad43394ba29f5
+  url: https://pypi.io/packages/source/n/nbformat/nbformat-5.3.0.tar.gz
+build:
+  entry_points:
+    - jupyter-trust = nbformat.sign:TrustNotebookApp.launch_instance
+  number: '0'
+  script: /tmp/build/80754af9/nbformat_1649844915018/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+    -m pip install . --no-deps -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.3.29 h06a4308_0
+    - certifi 2021.5.30 py310h06a4308_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1n h7f8727e_0
+    - pip 21.2.4 py310h06a4308_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.2 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7f8727e_4
+  run:
+    - jsonschema >=2.6
+    - jupyter_core
+    - python >=3.10,<3.11.0a0
+    - python-fastjsonschema
+    - traitlets >=4.1
+test:
+  commands:
+    - pip check
+    - jupyter trust --version
+    - jupyter-trust --help
+    - pytest -vv --cov nbformat --cov-report term-missing:skip-covered --no-cov-on-fail
+      --cov-fail-under 79
+  imports:
+    - nbformat
+  requires:
+    - pip
+    - pytest
+    - pytest-cov
+    - testpath
+  source_files:
+    - tests
+about:
+  dev_url: https://github.com/jupyter/nbformat
+  doc_url: https://nbformat.readthedocs.io
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: The Jupyter Notebook format
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - minrk
+    - mpacer
+    - ocefpaf
+    - pelson
+    - takluyver

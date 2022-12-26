@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "wcwidth-0.2.5-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "md5": "98982290b7b7eff532ec6dead415172b",
+  "name": "wcwidth",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2a886caffe9384c6ae32ee72f92d6c4bea0cbcc744682db1a1759d9b17b37af4",
+  "size": 34378,
+  "subdir": "noarch",
+  "timestamp": 1629357209371,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/wcwidth-0.2.5-pyhd3eb1b0_0.tar.bz2",
+  "version": "0.2.5"
+}

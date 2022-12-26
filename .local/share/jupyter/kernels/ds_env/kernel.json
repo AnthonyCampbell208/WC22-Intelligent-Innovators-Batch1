@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python (ds_env)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

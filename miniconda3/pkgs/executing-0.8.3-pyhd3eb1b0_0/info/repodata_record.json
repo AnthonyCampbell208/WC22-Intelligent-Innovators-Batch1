@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=2.7"
+  ],
+  "features": "",
+  "fn": "executing-0.8.3-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1bdd5a02233d229e76081a73659e9405",
+  "name": "executing",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "b67a5d4fdad35e881a497820699b2dc466a03aeff00a774ec412dba856a5895e",
+  "size": 18210,
+  "subdir": "noarch",
+  "timestamp": 1646925120076,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/executing-0.8.3-pyhd3eb1b0_0.tar.bz2",
+  "version": "0.8.3"
+}

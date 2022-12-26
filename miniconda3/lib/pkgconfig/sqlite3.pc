@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.40.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -lm -ldl -lpthread 
+Cflags: -I${includedir}

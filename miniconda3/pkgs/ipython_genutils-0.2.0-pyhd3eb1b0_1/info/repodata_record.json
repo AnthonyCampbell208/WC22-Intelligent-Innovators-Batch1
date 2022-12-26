@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3eb1b0_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "ipython_genutils-0.2.0-pyhd3eb1b0_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "2b7ea8318bc62d9e504ea43409ecd7c1",
+  "name": "ipython_genutils",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "ea821ba08e600790b068de794f7411a9c5a8a57afcdfb76696bd26470b2e5ca3",
+  "size": 27342,
+  "subdir": "noarch",
+  "timestamp": 1606773472974,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/ipython_genutils-0.2.0-pyhd3eb1b0_1.tar.bz2",
+  "version": "0.2.0"
+}

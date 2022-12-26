@@ -1,0 +1,25 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.5"
+  ],
+  "features": "",
+  "fn": "python-dateutil-2.8.2-pyhd3eb1b0_0.tar.bz2",
+  "license": "BSD-3-Clause and Apache",
+  "license_family": "BSD",
+  "md5": "2eb923cc014094f4acf7f849d67d73f8",
+  "name": "python-dateutil",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2745290a16cda0ae986b70c21f77ca43112c7be15f26041bec436f9f76aa3faf",
+  "size": 246457,
+  "subdir": "noarch",
+  "timestamp": 1626374695070,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/python-dateutil-2.8.2-pyhd3eb1b0_0.tar.bz2",
+  "version": "2.8.2"
+}

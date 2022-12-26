@@ -1,0 +1,24 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/anaconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "attrs-21.4.0-pyhd3eb1b0_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "718e897afa9f595cfe33461c0685d4da",
+  "name": "attrs",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "ac1f0f3b9a81311b81409bdd6d00b552a16a283714153134d0abbca35c62bc4d",
+  "size": 49732,
+  "subdir": "noarch",
+  "timestamp": 1642510484417,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/anaconda/noarch/attrs-21.4.0-pyhd3eb1b0_0.tar.bz2",
+  "version": "21.4.0"
+}

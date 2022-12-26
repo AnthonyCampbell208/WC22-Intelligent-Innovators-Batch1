@@ -1,0 +1,61 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/jupyterlab_widgets-1.0.0-on-linux_64, last modified Tue Jan  5 21:40:25 2021
+# ------------------------------------------------
+
+package:
+    name: jupyterlab_widgets
+    version: 1.0.0
+source:
+    sha256: 5c1a29a84d3069208cb506b10609175b249b6486d6b1cbae8fcde2a11584fb78
+    url: https://pypi.io/packages/source/j/jupyterlab_widgets/jupyterlab_widgets-1.0.0.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: /tmp/build/80754af9/jupyterlab_widgets_1609884341231/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . -vv
+    string: pyhd3eb1b0_1
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.12.8 h06a4308_0
+        - certifi 2020.12.5 py39h06a4308_0
+        - jupyter-packaging 0.7.9 pyhd3eb1b0_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1i h27cfd23_0
+        - pip 20.3.3 py39h06a4308_0
+        - python 3.9.1 hdb3f193_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 51.0.0 py39h06a4308_2
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - tzdata 2020d h14c3975_0
+        - wheel 0.36.2 pyhd3eb1b0_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.6
+test:
+    commands:
+        - pip check
+    imports:
+        - jupyterlab_widgets
+    requires:
+        - pip
+about:
+    home: https://github.com/jupyter-widgets/ipywidgets
+    license: BSD-3-Clause
+    license_file: LICENSE
+    summary: JupyterLab extension providing HTML widgets
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - jasongrout
+        - jtpio

@@ -1,0 +1,113 @@
+# This file created by conda-build 3.21.9
+# meta.yaml template originally from:
+# /tmp/abs_abf6xa6h6f/clone/recipe, last modified Fri Jul 29 08:34:11 2022
+# ------------------------------------------------
+
+package:
+  name: notebook
+  version: 6.4.12
+source:
+  sha256: 6268c9ec9048cff7a45405c990c29ac9ca40b0bc3ec29263d218c5e01f2b4e86
+  url: https://pypi.io/packages/source/n/notebook/notebook-6.4.12.tar.gz
+build:
+  entry_points:
+    - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+    - jupyter-nbextension = notebook.nbextensions:main
+    - jupyter-notebook = notebook.notebookapp:main
+    - jupyter-serverextension = notebook.serverextensions:main
+  number: '0'
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.07.19 h06a4308_0
+    - certifi 2022.6.15 py310h06a4308_0
+    - deprecation 2.1.0 pyhd3eb1b0_0
+    - jupyter-packaging 0.12.0 py310h06a4308_0
+    - ld_impl_linux-64 2.38 h1181459_1
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h5eee18b_3
+    - openssl 1.1.1q h7f8727e_0
+    - packaging 21.3 pyhd3eb1b0_0
+    - pip 22.1.2 py310h06a4308_0
+    - pyparsing 3.0.4 pyhd3eb1b0_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.5 hc218d9a_0
+    - tk 8.6.12 h1ccaba5_0
+    - tomlkit 0.11.1 py310h06a4308_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7f8727e_1
+    - zlib 1.2.12 h7f8727e_2
+  run:
+    - argon2-cffi
+    - ipykernel
+    - ipython_genutils
+    - jinja2
+    - jupyter_client >=5.3.4
+    - jupyter_core >=4.6.1
+    - nbconvert >=5
+    - nbformat
+    - nest-asyncio >=1.5
+    - prometheus_client
+    - python >=3.10,<3.11.0a0
+    - pyzmq >=17
+    - send2trash >=1.8.0
+    - terminado >=0.8.3
+    - tornado >=6.1
+    - traitlets >=4.2.1
+test:
+  commands:
+    - python -m pip check
+    - jupyter notebook -h
+    - jupyter nbextension -h
+    - jupyter serverextension -h
+    - jupyter bundlerextension -h
+  imports:
+    - notebook
+    - notebook.tests.launchnotebook
+  requires:
+    - pip
+    - requests
+app:
+  cli_opts:
+    - args: --port %s
+      default: '8080'
+      name: port
+      summary: Server port ...
+  entry: jupyter-notebook
+  icon: jupyter.png
+  summary: Jupyter Notebook
+  type: web
+about:
+  dev_url: https://github.com/jupyter/notebook
+  doc_source_url: https://github.com/jupyter/notebook/tree/master/docs
+  doc_url: https://jupyter-notebook.readthedocs.io
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: A web-based notebook environment for interactive computing
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: ab562052-bb08-4486-9646-d0efa782d7d7
+  recipe-maintainers:
+    - SylvainCorlay
+    - bollwyvl
+    - gnestor
+    - jakirkham
+    - lresende
+    - minrk
+    - pelson
+    - takluyver
+  remote_url: git@github.com:AnacondaRecipes/notebook-feedstock.git
+  sha: 8e76206ae5dbe706e348d4886cd927f450be0aa2

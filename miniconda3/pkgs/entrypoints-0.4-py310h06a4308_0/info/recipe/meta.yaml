@@ -1,0 +1,83 @@
+# This file created by conda-build 3.21.8
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/entrypoints-0.4-python_3.10-on-linux_64, last modified Thu Apr 14 08:50:44 2022
+# ------------------------------------------------
+
+package:
+  name: entrypoints
+  version: '0.4'
+source:
+  fn: entrypoints-0.4.tar.gz
+  sha256: b706eddaa9218a19ebcd67b56818f05bb27589b1ca9e8d797b74affad4ccacd4
+  url: https://pypi.io/packages/source/e/entrypoints/entrypoints-0.4.tar.gz
+build:
+  number: '0'
+  script: /tmp/build/80754af9/entrypoints_1649908313000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . --no-deps --ignore-installed -vv
+  string: py310h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 4.5 1_gnu
+    - bzip2 1.0.8 h7b6447c_0
+    - ca-certificates 2022.3.29 h06a4308_0
+    - certifi 2021.5.30 py310h06a4308_0
+    - flit-core 3.6.0 pyhd3eb1b0_0
+    - ld_impl_linux-64 2.35.1 h7274673_9
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.3.0 h5101ec6_17
+    - libgomp 9.3.0 h5101ec6_17
+    - libstdcxx-ng 9.3.0 hd4cf53a_17
+    - libuuid 1.0.3 h7f8727e_2
+    - ncurses 6.3 h7f8727e_2
+    - openssl 1.1.1n h7f8727e_0
+    - pip 21.2.4 py310h06a4308_0
+    - python 3.10.4 h12debd9_0
+    - readline 8.1.2 h7f8727e_1
+    - setuptools 61.2.0 py310h06a4308_0
+    - sqlite 3.38.2 hc218d9a_0
+    - tk 8.6.11 h1ccaba5_0
+    - tzdata 2022a hda174b7_0
+    - wheel 0.37.1 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.12 h7f8727e_0
+  run:
+    - python >=3.10,<3.11.0a0
+test:
+  commands:
+    - pip check
+    - python -m pytest
+  imports:
+    - entrypoints
+  requires:
+    - pip
+    - pytest
+  source_files:
+    - tests
+about:
+  description: 'Entry points are a way for Python packages to advertise objects with
+
+    some common interface. The most common examples are console_scripts
+
+    entry points, which define shell commands by identifying a Python
+
+    function to run
+
+    '
+  dev_url: https://github.com/takluyver/entrypoints
+  doc_source_url: https://github.com/takluyver/entrypoints/tree/master/doc
+  doc_url: https://entrypoints.readthedocs.io/en/latest/
+  home: https://github.com/takluyver/entrypoints
+  license: MIT License
+  license_family: MIT
+  license_file: LICENSE
+  summary: Discover and load entry points from installed packages.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - mingwandroid
+    - minrk
+    - ocefpaf
+    - pelson
+    - takluyver

@@ -1,0 +1,88 @@
+{% set version = "6.4.4" %}
+
+package:
+  name: nbconvert
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/nbconvert/nbconvert-{{ version }}.tar.gz
+  sha256: ee0dfe34bbd1082ac9bfc750aae3c73fcbc34a70c5574c6986ff83c10a3541fd
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  entry_points:
+    - jupyter-nbconvert = nbconvert.nbconvertapp:main
+    - jupyter-dejavu = nbconvert.nbconvertapp:dejavu_main
+  skip: True  #[py<37]
+
+requirements:
+  host:
+    - python
+    - pip
+    - wheel
+    - setuptools
+  run:
+    - python
+    - mistune >=0.8.1,<2
+    - jinja2 >=2.4
+    - pygments >=2.4.1
+    - traitlets >=5.0
+    - jupyter_core
+    - nbformat >=4.4
+    - entrypoints >=0.2.2
+    - bleach
+    - pandocfilters >=1.4.1
+    - testpath
+    - defusedxml
+    - nbclient >=0.5.0,<0.6.0
+    - jupyterlab_pygments
+    - beautifulsoup4
+  run_constrained:
+    - pyppeteer >=1,<1.1
+
+test:
+  imports:
+    - nbconvert
+    - nbconvert.exporters
+    - nbconvert.filters
+    - nbconvert.postprocessors
+    - nbconvert.preprocessors
+    - nbconvert.resources
+    - nbconvert.tests
+    - nbconvert.utils
+    - nbconvert.writers
+  source_files:
+    - nbconvert/tests/files/notebook1.ipynb
+
+  requires:
+    - pip
+    - beautifulsoup4
+  commands:
+    - pip check
+    - jupyter nbconvert --help
+    - jupyter nbconvert nbconvert/tests/files/notebook1.ipynb --to html
+
+about:
+  home: https://jupyter.org
+  license: BSD-3-Clause
+  license_file: LICENSE
+  license_family: BSD
+  summary: Converting Jupyter Notebooks
+  description: |
+    The nbconvert tool, jupyter nbconvert, converts notebooks to various other
+    formats via Jinja templates. The nbconvert tool allows you to convert an
+    .ipynb notebook file into various static formats.
+  doc_url: https://nbconvert.readthedocs.org/
+  dev_url: https://github.com/jupyter/nbconvert
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - mpacer
+    - minrk
+    - pelson
+    - takluyver
+    - mseal
+    - blink1073
+    - ocefpaf

@@ -1,0 +1,5 @@
+#!/projects/edd1874b-535e-4ea0-8897-aa8a85e79c89/miniconda3/bin/python3.10
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))
